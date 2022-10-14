@@ -1,0 +1,15 @@
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\bin\Debug\net6.0\03-sintaxe_e_tipos_de_dados_em_c#.exe
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\bin\Debug\net6.0\03-sintaxe_e_tipos_de_dados_em_c#.deps.json
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\bin\Debug\net6.0\03-sintaxe_e_tipos_de_dados_em_c#.runtimeconfig.json
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\bin\Debug\net6.0\03-sintaxe_e_tipos_de_dados_em_c#.dll
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\bin\Debug\net6.0\03-sintaxe_e_tipos_de_dados_em_c#.pdb
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\obj\Debug\net6.0\03-sintaxe_e_tipos_de_dados_em_c#.csproj.AssemblyReference.cache
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\obj\Debug\net6.0\03-sintaxe_e_tipos_de_dados_em_c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\obj\Debug\net6.0\03-sintaxe_e_tipos_de_dados_em_c#.AssemblyInfoInputs.cache
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\obj\Debug\net6.0\03-sintaxe_e_tipos_de_dados_em_c#.AssemblyInfo.cs
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\obj\Debug\net6.0\03-sintaxe_e_tipos_de_dados_em_c#.csproj.CoreCompileInputs.cache
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\obj\Debug\net6.0\03-sintaxe_e_tipos_de_dados_em_c#.dll
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\obj\Debug\net6.0\refint\03-sintaxe_e_tipos_de_dados_em_c#.dll
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\obj\Debug\net6.0\03-sintaxe_e_tipos_de_dados_em_c#.pdb
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\obj\Debug\net6.0\03-sintaxe_e_tipos_de_dados_em_c#.genruntimeconfig.cache
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\03-sintaxe_e_tipos_de_dados_em_c#\obj\Debug\net6.0\ref\03-sintaxe_e_tipos_de_dados_em_c#.dll
