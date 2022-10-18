@@ -32,3 +32,8 @@ não funciona caso o numéro não seja suportado. ex: long.MaxValue */
 // - funciona como na matemática, prioriza operações e parentêses
 double f = 4 / 2 + 2; //return 4
 double g = 4 / (2+2); //return 1 
+
+
+// OPERADORES CONDICIONAIS
+// como era de se esperar, nenhuma diferença em relação ao java
+// a unica observação é em relação ao scanner, no c# é simplificado, ou seja, usamos apenas Console.ReadLine();
