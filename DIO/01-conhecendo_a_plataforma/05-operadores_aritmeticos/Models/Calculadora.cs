@@ -35,7 +35,7 @@ namespace _05_operadores_aritmeticos.Models
 
         public void Seno(double angulo) 
         {
-            double radiano = angulo * Math.PI / 180;
+            double radiano = angulo * Math.PI / 180; // a operação Math precisa receber o valor radiano
             double seno = Math.Sin(radiano);
             Console.WriteLine($"Seno de {angulo}° = {Math.Round(seno, 4)}"); // Math.Round formata para 4 digitos
         }
