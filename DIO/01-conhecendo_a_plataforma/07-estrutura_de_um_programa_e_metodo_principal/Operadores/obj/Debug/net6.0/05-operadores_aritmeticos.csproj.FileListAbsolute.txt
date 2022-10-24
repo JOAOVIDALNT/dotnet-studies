@@ -1,0 +1,15 @@
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\bin\Debug\net6.0\05-operadores_aritmeticos.exe
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\bin\Debug\net6.0\05-operadores_aritmeticos.deps.json
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\bin\Debug\net6.0\05-operadores_aritmeticos.runtimeconfig.json
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\bin\Debug\net6.0\05-operadores_aritmeticos.dll
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\bin\Debug\net6.0\05-operadores_aritmeticos.pdb
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\obj\Debug\net6.0\05-operadores_aritmeticos.csproj.AssemblyReference.cache
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\obj\Debug\net6.0\05-operadores_aritmeticos.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\obj\Debug\net6.0\05-operadores_aritmeticos.AssemblyInfoInputs.cache
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\obj\Debug\net6.0\05-operadores_aritmeticos.AssemblyInfo.cs
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\obj\Debug\net6.0\05-operadores_aritmeticos.csproj.CoreCompileInputs.cache
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\obj\Debug\net6.0\05-operadores_aritmeticos.dll
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\obj\Debug\net6.0\refint\05-operadores_aritmeticos.dll
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\obj\Debug\net6.0\05-operadores_aritmeticos.pdb
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\obj\Debug\net6.0\05-operadores_aritmeticos.genruntimeconfig.cache
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\05-operadores_aritmeticos\obj\Debug\net6.0\ref\05-operadores_aritmeticos.dll
