@@ -1,0 +1,15 @@
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\bin\Debug\net6.0\08-arrays_e_listas.exe
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\bin\Debug\net6.0\08-arrays_e_listas.deps.json
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\bin\Debug\net6.0\08-arrays_e_listas.runtimeconfig.json
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\bin\Debug\net6.0\08-arrays_e_listas.dll
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\bin\Debug\net6.0\08-arrays_e_listas.pdb
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\obj\Debug\net6.0\08-arrays_e_listas.csproj.AssemblyReference.cache
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\obj\Debug\net6.0\08-arrays_e_listas.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\obj\Debug\net6.0\08-arrays_e_listas.AssemblyInfoInputs.cache
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\obj\Debug\net6.0\08-arrays_e_listas.AssemblyInfo.cs
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\obj\Debug\net6.0\08-arrays_e_listas.csproj.CoreCompileInputs.cache
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\obj\Debug\net6.0\08-arrays_e_listas.dll
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\obj\Debug\net6.0\refint\08-arrays_e_listas.dll
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\obj\Debug\net6.0\08-arrays_e_listas.pdb
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\obj\Debug\net6.0\08-arrays_e_listas.genruntimeconfig.cache
+C:\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\08-arrays_e_listas\obj\Debug\net6.0\ref\08-arrays_e_listas.dll
