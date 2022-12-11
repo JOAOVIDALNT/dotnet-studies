@@ -1,0 +1,15 @@
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\bin\Debug\net6.0\formatando_valores_monetários.exe
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\bin\Debug\net6.0\formatando_valores_monetários.deps.json
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\bin\Debug\net6.0\formatando_valores_monetários.runtimeconfig.json
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\bin\Debug\net6.0\formatando_valores_monetários.dll
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\bin\Debug\net6.0\formatando_valores_monetários.pdb
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\obj\Debug\net6.0\formatando_valores_monetários.csproj.AssemblyReference.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\obj\Debug\net6.0\formatando_valores_monetários.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\obj\Debug\net6.0\formatando_valores_monetários.AssemblyInfoInputs.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\obj\Debug\net6.0\formatando_valores_monetários.AssemblyInfo.cs
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\obj\Debug\net6.0\formatando_valores_monetários.csproj.CoreCompileInputs.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\obj\Debug\net6.0\formatando_valores_monetários.dll
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\obj\Debug\net6.0\refint\formatando_valores_monetários.dll
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\obj\Debug\net6.0\formatando_valores_monetários.pdb
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\obj\Debug\net6.0\formatando_valores_monetários.genruntimeconfig.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\13-manipulando_valores\formatando_valores_monetários\obj\Debug\net6.0\ref\formatando_valores_monetários.dll
