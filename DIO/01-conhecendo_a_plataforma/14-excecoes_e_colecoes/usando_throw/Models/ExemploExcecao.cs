@@ -9,7 +9,14 @@ namespace usando_throw.Models
     {
         public void Method1()
         {
-            Method2();
+            try
+            {
+                Method2();
+            } 
+            catch (Exception e) 
+            {
+                Console.WriteLine($"Exceção tratada {e.Message}");
+            }
         }
         public void Method2()
         {
