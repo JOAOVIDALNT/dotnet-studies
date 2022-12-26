@@ -1,0 +1,15 @@
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\bin\Debug\net6.0\pilha.exe
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\bin\Debug\net6.0\pilha.deps.json
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\bin\Debug\net6.0\pilha.runtimeconfig.json
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\bin\Debug\net6.0\pilha.dll
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\bin\Debug\net6.0\pilha.pdb
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\obj\Debug\net6.0\pilha.csproj.AssemblyReference.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\obj\Debug\net6.0\pilha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\obj\Debug\net6.0\pilha.AssemblyInfoInputs.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\obj\Debug\net6.0\pilha.AssemblyInfo.cs
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\obj\Debug\net6.0\pilha.csproj.CoreCompileInputs.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\obj\Debug\net6.0\pilha.dll
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\obj\Debug\net6.0\refint\pilha.dll
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\obj\Debug\net6.0\pilha.pdb
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\obj\Debug\net6.0\pilha.genruntimeconfig.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\14-excecoes_e_colecoes\pilha\obj\Debug\net6.0\ref\pilha.dll

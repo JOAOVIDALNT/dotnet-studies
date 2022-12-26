@@ -12,7 +12,7 @@ foreach (int item in fila)
 
 // fila.Dequeue(); -> sempre remove o primeiro elemento 
 
-Console.WriteLine($"Removendo o elemento {fila.Dequeue()}");
+Console.WriteLine($"Removing element: {fila.Dequeue()}"); // remove e retorna o elemento do começo da fila
 fila.Enqueue(10);
 
 foreach (int item in fila)
