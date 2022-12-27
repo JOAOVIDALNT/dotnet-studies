@@ -1,0 +1,17 @@
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\bin\Debug\net6.0\02.exe
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\bin\Debug\net6.0\02.deps.json
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\bin\Debug\net6.0\02.runtimeconfig.json
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\bin\Debug\net6.0\02.dll
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\bin\Debug\net6.0\02.pdb
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\obj\Debug\net6.0\02.csproj.AssemblyReference.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\obj\Debug\net6.0\02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\obj\Debug\net6.0\02.AssemblyInfoInputs.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\obj\Debug\net6.0\02.AssemblyInfo.cs
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\obj\Debug\net6.0\02.csproj.CoreCompileInputs.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\obj\Debug\net6.0\02.csproj.CopyComplete
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\obj\Debug\net6.0\02.dll
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\obj\Debug\net6.0\refint\02.dll
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\obj\Debug\net6.0\02.pdb
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\obj\Debug\net6.0\02.genruntimeconfig.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\01-conhecendo_a_plataforma\16-nuget_serializar_e_atributos\02\obj\Debug\net6.0\ref\02.dll
