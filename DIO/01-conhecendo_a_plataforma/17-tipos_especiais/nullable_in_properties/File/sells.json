@@ -1,0 +1,16 @@
+[
+  {
+    "Id": 1,
+    "Name": "Notebook",
+    "Price": 1400.00,
+    "SellDate": "2022-12-27T10:24:40.9621965-03:00",
+    "Discount": null
+  },
+  {
+    "Id": 2,
+    "Name": "Smartphone",
+    "Price": 800.00,
+    "SellDate": "2022-12-27T10:24:40.9621965-03:00",
+    "Discount": 10
+  }
+]
