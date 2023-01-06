@@ -15,5 +15,5 @@ namespace _01_abstracao_e_encapsulamento.Models
             Console.WriteLine($"Hi, my name is {Name} and i'm {Age} years old");
         }
     }
-    // a classe é apenas uma representação, para criar um objeto é preciso instanciar
+    // ABSTRAÇÃO: a classe é apenas uma representação, para criar um objeto é preciso instanciar
 }
