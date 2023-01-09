@@ -10,7 +10,7 @@ namespace _02_heranca_e_polimorfismo.Models
         public string Name { get; set; }
         public int Age { get; set; }
 
-        public void Present()
+        public virtual void Present() // POLIMORFISMO: virtual possibilita a classe de ser reescrita
         {
             Console.WriteLine($"Olá, meu nome é {Name} e tenho {Age} anos!");
         }
