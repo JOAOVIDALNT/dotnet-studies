@@ -1,0 +1,15 @@
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\bin\Debug\net6.0\03-classes_abstratas_e_interfaces.exe
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\bin\Debug\net6.0\03-classes_abstratas_e_interfaces.deps.json
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\bin\Debug\net6.0\03-classes_abstratas_e_interfaces.runtimeconfig.json
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\bin\Debug\net6.0\03-classes_abstratas_e_interfaces.dll
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\bin\Debug\net6.0\03-classes_abstratas_e_interfaces.pdb
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\obj\Debug\net6.0\03-classes_abstratas_e_interfaces.csproj.AssemblyReference.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\obj\Debug\net6.0\03-classes_abstratas_e_interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\obj\Debug\net6.0\03-classes_abstratas_e_interfaces.AssemblyInfoInputs.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\obj\Debug\net6.0\03-classes_abstratas_e_interfaces.AssemblyInfo.cs
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\obj\Debug\net6.0\03-classes_abstratas_e_interfaces.csproj.CoreCompileInputs.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\obj\Debug\net6.0\03-classes_abstratas_e_interfaces.dll
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\obj\Debug\net6.0\refint\03-classes_abstratas_e_interfaces.dll
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\obj\Debug\net6.0\03-classes_abstratas_e_interfaces.pdb
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\obj\Debug\net6.0\03-classes_abstratas_e_interfaces.genruntimeconfig.cache
+C:\Users\João\projects\C#\dotnet-studies\DIO\02-orientacao_a_objetos\03-classes_abstratas_e_interfaces\obj\Debug\net6.0\ref\03-classes_abstratas_e_interfaces.dll
