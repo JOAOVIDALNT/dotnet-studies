@@ -13,3 +13,6 @@ TCL - Transition Control Language: COMMIT, ROLLBACK & SAVE POINT.
 *DQL - Data Query Language: *SELECT
 
 * - MOST USED
+
+#### Database
+- É uma coleção de dados estruturados, agrupados de forma concisa. É composto de tabelas, procedures, views, etc..
