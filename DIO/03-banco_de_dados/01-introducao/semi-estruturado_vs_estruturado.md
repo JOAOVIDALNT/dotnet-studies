@@ -14,6 +14,6 @@ ex:
     "Cupom": "888"
 }
 
-## Estruturado
+### Estruturado
 ex: Tabelas de sql
 - é muito menos flexível do que o semi-estruturado, por exemplo, se quisessemos adicionar a coluna cupom à tabela, todos os usuários teriam o atributo cupom e o tipo das colunas também tem que ser estabelecidos, se definirmos preço como decimal, não podemos receber o mesmo em string e vice-versa.
