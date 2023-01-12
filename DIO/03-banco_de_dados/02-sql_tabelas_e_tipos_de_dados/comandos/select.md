@@ -1,4 +1,4 @@
-### Comando select
+### Comando SELECT
 
 - É possível ordenar a seleção de tabela utilizando o comando ORDER
 ex : SELECT * FROM Clientes

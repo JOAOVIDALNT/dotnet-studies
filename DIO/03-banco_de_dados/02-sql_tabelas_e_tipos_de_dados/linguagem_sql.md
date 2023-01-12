@@ -16,3 +16,8 @@ TCL - Transition Control Language: COMMIT, ROLLBACK & SAVE POINT.
 
 #### Database
 - É uma coleção de dados estruturados, agrupados de forma concisa. É composto de tabelas, procedures, views, etc..
+
+#### Observações
+- Selecionar o trecho de código que você quer executar é uma boa alternativa caso possua outros comandos que não queres executar na mesma query
+
+- COMENTÁRIOS: CTRL + K + C (comentários em sql são dois traços '--')
