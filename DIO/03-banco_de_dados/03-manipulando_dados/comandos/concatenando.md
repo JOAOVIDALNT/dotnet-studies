@@ -4,7 +4,7 @@
 
 ex: SELECT Nome + ', Cor:' + Cor FROM Produtos
 ou  SELECT Nome + ', Cor:' + Cor NomeProduto FROM Produtos
-                                  '-> nome da tabela
+                                  '-> nome da coluna
 
 um select normal de tabela seria:
     SELECT Nome, Cor FROM Produtos
