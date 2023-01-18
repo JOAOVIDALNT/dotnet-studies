@@ -22,3 +22,29 @@
     50,
     'G',
     'U'
+
+> PODE-SE TAMBÉM NOMEAR NA INSTANCIA ex:
+    EXEC InserirNovoProduto
+    @Nome = 'Novo Produto',
+    @Cor = 'Colorido',
+    @Preco = 50,
+    @Tamanho = 'G',
+    @Genero = 'U'
+
+
+> PROCEDURE COM SELECT
+    CREATE PROCEDURE ObterProdutosPorTamanho
+    @TamanhoProduto varchar(5)
+
+    AS
+
+    SELECT * FROM Products WHERE Tamanho = @TamanhoProduto
+
+> F5 PARA CRIAR A PROCEDURE
+
+    EXEC ObterProdutosPorTamanho 'M'
+
+> NEM TODA PROCEDURE PRECISA TER PARÂMETRO exemplo:
+    CREATE PROCEDURE ObterTodosProdutos
+    AS 
+    SELECT * FROM Produtos  
