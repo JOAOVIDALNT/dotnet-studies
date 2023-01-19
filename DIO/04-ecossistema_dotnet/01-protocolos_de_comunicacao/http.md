@@ -111,6 +111,15 @@ PATCH modificação parcial
 > O HTTP 2.0 utiliza a priorização de recursos, ou seja, é possivel configurar conteúdos para carregarem antes de outros
 > PUSH -> Novo recurso do http 2.0, não é default, deve ser configurada e submete arquivos relacionados, ou seja, ao abrir o main.html o push envia o combo, com main.js + img.jpg etc..
 
+#### Servidores
+
+- APACHE
+> Servidor mundialmente conhecido, open source, serve windows e linux, majoritariamente usado no linux
+- XAMP
+> Pacote que usa apache como server, mariaDB(criadores sairam do mysql e criaram, é parecido) e alguns interpretadores, muito voltado para teste
+- NGINX
+> Servidor muito usado também com algumas caracteristicas próprias
+
 
 
 
