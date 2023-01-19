@@ -99,4 +99,18 @@ PATCH modificação parcial
 
 > Solicita o concentimento graças a lgpd
 
+> WEB CACHE:
+> Web cache ou proxy server, servem ao cliente um pouco antes do servidor, caso o cache possua resposta pra requisição, ele mesmo faz, se não, ele contata o server http, atualiza o dado que for antigo e volta a servir o cliente
+> proporciona reduçao do tempo de resposta e redução do tráfego
+
+
+#### Protocolo no HTTP 2.0
+
+- Melhorias:
+> HOL (HEAD OF LINE BLOCKING) - Nativo do http 1.1 o hol permitia apenas uma requisição por vez, bloqueando quaisquer outras tentativas até que a requisição retornasse. O HTTP 2.0 estabelece uma conexão principal persistente entre cliente e servidor e partir dai envia-se as requisições dentro dessa conexão de maneira independente, é possivel enviar varias requisições e receber em ordem diferente.
+> O HTTP 2.0 utiliza a priorização de recursos, ou seja, é possivel configurar conteúdos para carregarem antes de outros
+> PUSH -> Novo recurso do http 2.0, não é default, deve ser configurada e submete arquivos relacionados, ou seja, ao abrir o main.html o push envia o combo, com main.js + img.jpg etc..
+
+
+
 
