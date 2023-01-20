@@ -4,3 +4,8 @@
 
 > dotnet-ef migrations add CriacaoTabelaContato
 faz a migração, cria a pasta Migrations no projeto com os comandos para se criar tabela
+
+> dotnet-ef database update
+implementa a migração, cria a tabela no sql server
+
+
