@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\João\dev\C#\dotnet-studies\DIO\04-ecossistema_dotnet\04-front_end_com_asp.net_mvc\ProjetoMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/João/dev/C\#/dotnet-studies/DIO/04-ecossistema_dotnet/04-front_end_com_asp.net_mvc/ProjetoMVC/Views/Contato/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xDcmlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/João/dev/C\#/dotnet-studies/DIO/04-ecossistema_dotnet/04-front_end_com_asp.net_mvc/ProjetoMVC/Views/Contato/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

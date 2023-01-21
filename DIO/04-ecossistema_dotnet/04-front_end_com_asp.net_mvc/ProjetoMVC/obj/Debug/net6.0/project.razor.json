@@ -16328,6 +16328,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\João\\dev\\C#\\dotnet-studies\\DIO\\04-ecossistema_dotnet\\04-front_end_com_asp.net_mvc\\ProjetoMVC\\Views\\Contato\\Criar.cshtml",
+      "TargetPath": "Views\\Contato\\Criar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\João\\dev\\C#\\dotnet-studies\\DIO\\04-ecossistema_dotnet\\04-front_end_com_asp.net_mvc\\ProjetoMVC\\Views\\Contato\\Index.cshtml",
       "TargetPath": "Views\\Contato\\Index.cshtml",
       "FileKind": "mvc"
