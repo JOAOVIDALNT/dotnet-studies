@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\João\\dev\\C#\\dotnet-studies\\DIO\\04-ecossistema_dotnet\\04-front_end_com_asp.net_mvc\\ProjetoMVC\\ProjetoMVC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\João\\dev\\C#\\dotnet-studies\\DIO\\04-ecossistema_dotnet\\04-front_end_com_asp.net_mvc\\ProjetoMVC\\ProjetoMVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\João\\dev\\C#\\dotnet-studies\\DIO\\04-ecossistema_dotnet\\04-front_end_com_asp.net_mvc\\ProjetoMVC\\ProjetoMVC.csproj",
+        "projectName": "ProjetoMVC",
+        "projectPath": "C:\\Users\\João\\dev\\C#\\dotnet-studies\\DIO\\04-ecossistema_dotnet\\04-front_end_com_asp.net_mvc\\ProjetoMVC\\ProjetoMVC.csproj",
+        "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\João\\dev\\C#\\dotnet-studies\\DIO\\04-ecossistema_dotnet\\04-front_end_com_asp.net_mvc\\ProjetoMVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\João\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlserver": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
