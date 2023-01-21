@@ -37,6 +37,14 @@ namespace API.Controllers
             }
             return Ok(contato);
         }
+        
+        [HttpGet("ObterPorNome")]
+        public IActionResult GetByName(string nome)
+        {
+            var contatos = _context.Contatos.Where(x => x.Nome.Contains(nome));
+            
+            return Ok(contatos);
+        }
 
         [HttpPut("{id}")]
         public IActionResult Update(int id, Contato contato)
@@ -71,6 +79,7 @@ namespace API.Controllers
             _context.SaveChanges();
             return NoContent();
         }
+        
 
     }
 }
