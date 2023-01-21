@@ -13,7 +13,7 @@ namespace API.Controllers
     public class ContatoController : ControllerBase
     {
         private readonly AgendaContext _context;
-        public ContatoController(AgendaContext context)
+        public ContatoController(AgendaContext context) // INJEÇÃO DE DEPENDENCIA
         {
             _context = context;
         }
@@ -22,8 +22,9 @@ namespace API.Controllers
         public IActionResult Create(Contato contato)
         {
             _context.Add(contato);
-            _context.SaveChanges();
-            return Ok(contato);
+            _context.SaveChanges(); // PARA TODOS, COM EXCESSÃO DO GET SE CHAMA O SAVECHANGES PARA ATUALIZAR O DB
+            return CreatedAtAction(nameof(GetById), new {id = contato.Id}, contato);
+            // o response header retorna a location da inserção
         }
 
         [HttpGet("{id}")]
@@ -37,7 +38,7 @@ namespace API.Controllers
             }
             return Ok(contato);
         }
-        
+
         [HttpGet("ObterPorNome")]
         public IActionResult GetByName(string nome)
         {

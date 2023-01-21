@@ -14,6 +14,7 @@ namespace API.Context
         {
             // RECEBE A CONEXÃO/CONFIGURAÇÃO DO BANCO ATRAVÉS DO options E PASSA PARA O base QUE É O DbContext POIS ELE É QUEM GERENCIA A CONEXÃO COM O BANCO DE DADOS
             // SERVE APENAS COMO CONSTRUTOR. SEM CORPO.
+            // NO PROGRAM.CS É POSSIVEL VER A IMPLEMENTAÇÃO DO OPTIONS PARA CONFIGURAR O DBCONTEXT
         }
 
         public DbSet<Contato> Contatos {get; set;}
