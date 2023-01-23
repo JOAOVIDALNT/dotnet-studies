@@ -19,8 +19,8 @@ namespace ProjetoMVC.Controllers
 
         public IActionResult Index()
         {
-            var contatos = _context.Contatos.ToList();
-            return View(contatos);
+            var contatos = _context.Contatos.ToList(); // Pega todos os contatos e coloca em uma lista
+            return View(contatos); // retorna e exibe a lista de contatos
         }
 
         public IActionResult Criar()
