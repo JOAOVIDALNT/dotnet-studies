@@ -20,7 +20,8 @@ app.MapGet("/AddHeader", (HttpResponse response) =>
 
 // body parameter
 app.MapPost("/saveproduct", (Product product) => {
-    return product.Code + " - " + product.Name;
+    // return product.Code + " - " + product.Name;
+    ProductRepository.Add(product);
 } ); // -> informação passada através do body (corpo da req) no postman
 
 // query parameter
@@ -31,7 +32,9 @@ app.MapGet("getproduct", ( [FromQuery] string datestart, [FromQuery] string date
 // url parameter
 //api.app.com/user/{code}
 app.MapGet("getproduct/{code}", ([FromRoute] string code) => {
-    return code;
+    // return code;
+    var product = ProductRepository.GetBy(code);
+    return product;
 });
 
 // header parameter
@@ -39,10 +42,45 @@ app.MapGet("/getproductbyheader", (HttpRequest request) => {
     return request.Headers["product-code"].ToString; // dictionary, mapeado por chave e valor
 }); // -> normalmente usado pra enviar um token (não muito utilizado)
 
+app.MapPut("/editproduct", (Product product) => {
+    var productrepo = ProductRepository.GetBy(product.Code);
+    productrepo.Name = product.Name;
+});
+
+app.MapDelete("/deleteproduct/{code}", ([FromRoute] string code) => {
+    var productrepo = ProductRepository.GetBy(code);
+    ProductRepository.Remove(productrepo);
+});
+
 app.Run();
 // manda rodar o app
 
 // em Properties > launchSettings.json é possível visualizar e alterar as portas
+
+
+public static class ProductRepository // estática pois uma classe não estática acaba quando a req termina enquanto a classe estática fica na memória do servidor e é disponibilizada pra qualquer req.
+{
+    public static List<Product> Products { get; set;}
+
+    public static void Add(Product product)
+    {
+        if (Products == null)
+            Products = new List<Product>();
+        Products.Add(product);
+    }
+
+    public static void Remove(Product product)
+    {
+        Products.Remove(product);
+    }
+
+    public static Product GetBy(string code)
+    {
+        // return Products.First(p => p.Code == code);
+        return Products.FirstOrDefault(p => p.Code == code); // para tratar o erro caso o code não exista retorna null
+    }
+
+}
 
 public class Product {
     public string Code { get; set; }
