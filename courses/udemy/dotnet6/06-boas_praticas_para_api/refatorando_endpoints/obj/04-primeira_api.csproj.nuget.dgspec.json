@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\João\\dev\\C#\\dotnet-studies\\courses\\udemy\\dotnet6\\04-primeira_api\\04-primeira_api.csproj": {}
+    "C:\\Users\\João\\dev\\C#\\dotnet-studies\\courses\\udemy\\dotnet6\\06-boas_praticas_para_api\\refatorando_endpoints\\04-primeira_api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\João\\dev\\C#\\dotnet-studies\\courses\\udemy\\dotnet6\\04-primeira_api\\04-primeira_api.csproj": {
+    "C:\\Users\\João\\dev\\C#\\dotnet-studies\\courses\\udemy\\dotnet6\\06-boas_praticas_para_api\\refatorando_endpoints\\04-primeira_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\João\\dev\\C#\\dotnet-studies\\courses\\udemy\\dotnet6\\04-primeira_api\\04-primeira_api.csproj",
+        "projectUniqueName": "C:\\Users\\João\\dev\\C#\\dotnet-studies\\courses\\udemy\\dotnet6\\06-boas_praticas_para_api\\refatorando_endpoints\\04-primeira_api.csproj",
         "projectName": "04-primeira_api",
-        "projectPath": "C:\\Users\\João\\dev\\C#\\dotnet-studies\\courses\\udemy\\dotnet6\\04-primeira_api\\04-primeira_api.csproj",
+        "projectPath": "C:\\Users\\João\\dev\\C#\\dotnet-studies\\courses\\udemy\\dotnet6\\06-boas_praticas_para_api\\refatorando_endpoints\\04-primeira_api.csproj",
         "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\João\\dev\\C#\\dotnet-studies\\courses\\udemy\\dotnet6\\04-primeira_api\\obj\\",
+        "outputPath": "C:\\Users\\João\\dev\\C#\\dotnet-studies\\courses\\udemy\\dotnet6\\06-boas_praticas_para_api\\refatorando_endpoints\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\João\\AppData\\Roaming\\NuGet\\NuGet.Config"
