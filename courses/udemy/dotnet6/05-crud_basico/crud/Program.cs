@@ -4,43 +4,14 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 // Responsável por criar a aplicação web (hosting)
 
-
-app.MapGet("/", () => "Hello World!");
-// primeiro endpoint
-// não é possível criar dois métodos get no mesmo path
-app.MapPost("/", () => "João Vidal");
-app.MapGet("/user", () => "João Vidal");
-app.MapGet("/userFull", () => new {Name = "João Vidal", Age = 23});
-
-app.MapGet("/AddHeader", (HttpResponse response) => 
-{
-    response.Headers.Add("Teste", "Joao Vidal");
-    return "Olá";
-});
-
-// body parameter
 app.MapPost("/saveproduct", (Product product) => {
-    // return product.Code + " - " + product.Name;
     ProductRepository.Add(product);
-} ); // -> informação passada através do body (corpo da req) no postman
+} );
 
-// query parameter
-//api.app.com/users?datestart={date}&dateend={date}
-app.MapGet("getproduct", ( [FromQuery] string datestart, [FromQuery] string dateend) => {
-    return datestart + " - " + dateend;
-});
-// url parameter
-//api.app.com/user/{code}
 app.MapGet("getproduct/{code}", ([FromRoute] string code) => {
-    // return code;
     var product = ProductRepository.GetBy(code);
     return product;
 });
-
-// header parameter
-app.MapGet("/getproductbyheader", (HttpRequest request) => {
-    return request.Headers["product-code"].ToString; // dictionary, mapeado por chave e valor
-}); // -> normalmente usado pra enviar um token (não muito utilizado)
 
 app.MapPut("/editproduct", (Product product) => {
     var productrepo = ProductRepository.GetBy(product.Code);
@@ -53,12 +24,8 @@ app.MapDelete("/deleteproduct/{code}", ([FromRoute] string code) => {
 });
 
 app.Run();
-// manda rodar o app
 
-// em Properties > launchSettings.json é possível visualizar e alterar as portas
-
-
-public static class ProductRepository // estática pois uma classe não estática acaba quando a req termina enquanto a classe estática fica na memória do servidor e é disponibilizada pra qualquer req.
+public static class ProductRepository 
 {
     public static List<Product> Products { get; set;}
 
