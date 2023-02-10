@@ -1,7 +1,13 @@
+using di.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IClientService, ClientService>();
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
+// AddScoped é o tempo de vida, usamos addscoped para aplicação web
 
 var app = builder.Build();
 
