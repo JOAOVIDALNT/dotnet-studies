@@ -94,16 +94,6 @@ Técnica é algo simples, um padrão é uma técnica que é repetida diversas ve
 - Provê uma melhor divisão de responsabilidades
 > não interessa quem vai fornecer os serviços, será abordado da mesma maneira.
 
-#### Dependency Inversion Principle
 
-- Depender de abstrações e não de implementações
-
-- códigos testáveis são:
-mais seguros
-fácil de ler
-fácil de mudar
-fácil de dar manutenção
-
-> Testes te forçam a escrever um código melhor, menos acoplado.
 
 
