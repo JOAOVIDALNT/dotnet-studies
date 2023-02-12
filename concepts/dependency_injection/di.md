@@ -81,3 +81,29 @@ public class Cliente
 > o container DI nativo do .NET é quem realiza a inversão de controle, fornecendo a classe Pedido para IPedido já que uma interface não pode ser instanciada
 > config DI no .NET: services.AddTransient<IPedido, Pedido>();
 > com essa config, toda vez que eu injetar uma interface IPedido no construtor de uma classe, o container DI sabe que ele precisa resolver uma instância da classe pedido e de suas dependências.
+
+### Dependency Injection
+
+- Não é um padrão (Design Pattern)
+> Já foi descrito como uma técnica que implementa um padrão (IoC) > Inversão de controle
+> Também serve o padrão DIP
+
+Técnica é algo simples, um padrão é uma técnica que é repetida diversas vezes
+
+- Ajuda no baixo acoplamento
+- Provê uma melhor divisão de responsabilidades
+> não interessa quem vai fornecer os serviços, será abordado da mesma maneira.
+
+#### Dependency Inversion Principle
+
+- Depender de abstrações e não de implementações
+
+- códigos testáveis são:
+mais seguros
+fácil de ler
+fácil de mudar
+fácil de dar manutenção
+
+> Testes te forçam a escrever um código melhor, menos acoplado.
+
+
