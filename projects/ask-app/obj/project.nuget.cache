@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0meAvjcrIVN1+9kY56AWrB6CSgge+yi5X7kWQUSCi8yl2Ym9j29p90Q8CeZbsuyexXYzYb0DTfU58DIYIbfiqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\João\\dev\\C#\\dotnet-studies\\projects\\ask-app\\ask-app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\João\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\João\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\João\\.nuget\\packages\\textcopy\\6.2.1\\textcopy.6.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
