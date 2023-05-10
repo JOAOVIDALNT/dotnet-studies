@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HQOZyP6arlfJ86ghbDmq7k8+SWa1krFoBpEGtG1WvOw=",
+  "Source": "ticket-app",
+  "BasePath": "_content/ticket-app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
