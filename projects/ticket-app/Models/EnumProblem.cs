@@ -2,7 +2,7 @@ namespace ticket_app.Models
 {
     public enum EnumProblem
     {
-        MOUSE,
-        MONITOR
+        MOUSE = 1,
+        MONITOR = 2
     }
 }
