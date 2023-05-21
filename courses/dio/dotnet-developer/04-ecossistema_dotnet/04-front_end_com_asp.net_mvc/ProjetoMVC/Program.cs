@@ -4,8 +4,10 @@ using ProjetoMVC.Context;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<AgendaContext>(options => 
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao")));
+builder.Services.AddDbContext<AgendaContext>(options => {
+    var connectionString = builder.Configuration.GetConnectionString("ConexaoPadrao");
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+});
 
 
 builder.Services.AddControllersWithViews();
