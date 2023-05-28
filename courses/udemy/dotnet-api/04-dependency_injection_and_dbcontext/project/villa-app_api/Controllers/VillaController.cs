@@ -4,9 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using villa_app_api.data;
+using villa_app_api.Data;
 using villa_app_api.Models.dto;
-using villa_app_api.Logging;
 
 namespace villa_app_api.Controllers
 {
@@ -15,17 +14,14 @@ namespace villa_app_api.Controllers
     public class VillaController : ControllerBase
     {
 
-        private readonly ILogging _logger; // log personalizado
-        public VillaController(ILogging logger)
+        public VillaController()
         {
-            _logger = logger;
         }
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public ActionResult<IEnumerable<VillaDTO>> GetVillas()
         { // ActionResult implementa a interface IActionResult e possibilita retornar um status code com Ok()
-            _logger.Log("Getting all villas", "");
             return Ok(VillaStore.villaList);
         }
 
@@ -38,7 +34,6 @@ namespace villa_app_api.Controllers
 
             if(id == 0)
             {
-                _logger.Log($"Get villa error with id: {id}", "error");
                 return BadRequest();
             }
             var villa = VillaStore.villaList.FirstOrDefault(x => x.Id == id);

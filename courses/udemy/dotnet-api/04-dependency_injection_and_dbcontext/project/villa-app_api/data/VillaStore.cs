@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using villa_app_api.Models.dto;
 
-namespace villa_app_api.data
+namespace villa_app_api.Data
 {
     public static class VillaStore
     {
