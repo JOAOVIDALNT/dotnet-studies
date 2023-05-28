@@ -9,3 +9,42 @@
 2023-05-26 22:50:08.088 -03:00 [INF] Hosting environment: Development
 2023-05-26 22:50:08.089 -03:00 [INF] Content root path: C:\Users\João\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\03-crud_functionality\project\villa-app_api\
 2023-05-26 22:50:08.089 -03:00 [DBG] Hosting started
+2023-05-26 23:03:44.736 -03:00 [DBG] Connection id "0HMQUAQD0BDFO" accepted.
+2023-05-26 23:03:44.755 -03:00 [DBG] Connection id "0HMQUAQD0BDFO" started.
+2023-05-26 23:03:44.925 -03:00 [DBG] Connection 0HMQUAQD0BDFO established using the following protocol: "Tls12"
+2023-05-26 23:03:45.005 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - -
+2023-05-26 23:03:45.024 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-05-26 23:03:45.070 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-05-26 23:03:45.071 -03:00 [DBG] Request did not match any endpoints
+2023-05-26 23:03:45.253 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-05-26 23:03:45.268 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-05-26 23:03:45.271 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 271.7353ms
+2023-05-26 23:03:45.422 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 23:03:45.431 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 2.8306ms
+2023-05-26 23:03:45.806 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-05-26 23:03:45.806 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-05-26 23:03:45.807 -03:00 [DBG] Request did not match any endpoints
+2023-05-26 23:03:46.185 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 378.3455ms
+2023-05-26 23:03:50.583 -03:00 [DBG] Connection id "0HMQUAQD0BDFO" received FIN.
+2023-05-26 23:03:50.598 -03:00 [DBG] Connection id "0HMQUAQD0BDFO" is closed. The last processed stream ID was 5.
+2023-05-26 23:03:50.599 -03:00 [DBG] Connection id "0HMQUAQD0BDFO" sending FIN because: "The client closed the connection."
+2023-05-26 23:03:50.612 -03:00 [DBG] Connection id "0HMQUAQD0BDFO" stopped.
+2023-05-26 23:03:54.066 -03:00 [DBG] Connection id "0HMQUAQD0BDFP" accepted.
+2023-05-26 23:03:54.067 -03:00 [DBG] Connection id "0HMQUAQD0BDFP" started.
+2023-05-26 23:03:54.072 -03:00 [DBG] Connection 0HMQUAQD0BDFP established using the following protocol: "Tls12"
+2023-05-26 23:03:54.097 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - -
+2023-05-26 23:03:54.097 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-05-26 23:03:54.097 -03:00 [DBG] Request did not match any endpoints
+2023-05-26 23:03:54.133 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-05-26 23:03:54.134 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-05-26 23:03:54.134 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 37.5593ms
+2023-05-26 23:03:54.192 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - -
+2023-05-26 23:03:54.193 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.1845ms
+2023-05-26 23:03:55.059 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - -
+2023-05-26 23:03:55.059 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-05-26 23:03:55.059 -03:00 [DBG] Request did not match any endpoints
+2023-05-26 23:03:55.082 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 23.1020ms
+2023-05-26 23:04:00.628 -03:00 [DBG] Connection id "0HMQUAQD0BDFP" received FIN.
+2023-05-26 23:04:00.628 -03:00 [DBG] Connection id "0HMQUAQD0BDFP" is closed. The last processed stream ID was 5.
+2023-05-26 23:04:00.628 -03:00 [DBG] Connection id "0HMQUAQD0BDFP" sending FIN because: "The client closed the connection."
+2023-05-26 23:04:00.629 -03:00 [DBG] Connection id "0HMQUAQD0BDFP" stopped.
