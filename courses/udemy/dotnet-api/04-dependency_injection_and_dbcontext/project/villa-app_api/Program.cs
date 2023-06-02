@@ -7,7 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Log.Logger = new LoggerConfiguration().MinimumLevel.Debug().WriteTo.File("log/villalogs.txt", rollingInterval:RollingInterval.Day).CreateLogger();
 // // Configuração do serilog para logar as infos em um arquivo
 // builder.Host.UseSerilog(); // define que o serilog será o logger padrão
-
+builder.services.AddDbContext<ApllicationDbContext>(option => {
+    option.UseNpgsql();
+}  
+);
 builder.Services.AddControllers(
     option => {
         // option.ReturnHttpNotAcceptable = true; // Aceita apenas Json, caso passemos accept xml no header ele retorna não permitido ao invés de retornar o Json
