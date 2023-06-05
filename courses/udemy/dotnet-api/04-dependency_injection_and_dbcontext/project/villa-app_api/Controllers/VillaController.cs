@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using villa_app_api.Data;
 using villa_app_api.Models;
 using villa_app_api.Models.dto;
@@ -86,7 +87,7 @@ namespace villa_app_api.Controllers
             _db.Villas.Add(model);
             _db.SaveChanges();
 
-            return CreatedAtRoute("GetVilla", new { id = villaDTO.Id }, villaDTO);
+            return CreatedAtRoute("GetVilla", new { id = model.Id }, model);
         }
 
         [HttpDelete("{id}", Name = "DeleteVilla")]
@@ -148,7 +149,8 @@ namespace villa_app_api.Controllers
                 return BadRequest();
             }
 
-            var villa = _db.Villas.FirstOrDefault(x => x.Id == id);
+            var villa = _db.Villas.AsNoTracking().FirstOrDefault(x => x.Id == id);
+            // AsNoTracking serve para que o ef core não mantenha o dado rastreado para evitar conflito ao manipular com o partial update
 
             VillaDTO villaDTO = new()
             {
