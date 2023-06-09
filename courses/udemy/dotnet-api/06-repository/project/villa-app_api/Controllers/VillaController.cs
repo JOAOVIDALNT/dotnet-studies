@@ -62,7 +62,7 @@ namespace villa_app_api.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<VillaDTO>> CreateVilla([FromBody] VillaCreateDTO createDTO)
         {
-            if (await _db.Villas.FirstOrDefaultAsync(x => x.Name.ToLower() == createDTO.Name.ToLower()) != null)
+            if (await _repository.GetAsync(x => x.Name.ToLower() == createDTO.Name.ToLower()) != null)
             {
                 ModelState.AddModelError("Message", "Villa already exists");
                 return BadRequest(ModelState);
@@ -87,8 +87,7 @@ namespace villa_app_api.Controllers
             //    Amenity = createDTO.Amenity
             //};
 
-            await _db.Villas.AddAsync(model);
-            await _db.SaveChangesAsync();
+            await _repository.CreateAsync(model);
 
             return CreatedAtRoute("GetVilla", new { id = model.Id }, model);
         }
@@ -103,14 +102,14 @@ namespace villa_app_api.Controllers
             {
                 return BadRequest();
             }
-            var villa = await _db.Villas.FirstOrDefaultAsync(x => x.Id == id);
+            var villa = await _repository.GetAsync(x => x.Id == id);
             if (villa == null)
             {
                 return NotFound();
             }
 
-            _db.Villas.Remove(villa); // não temos removeasync
-            await _db.SaveChangesAsync();
+            await _repository.DeleteAsync(villa); // não temos removeasync
+       
             return NoContent(); 
 
 
@@ -128,8 +127,8 @@ namespace villa_app_api.Controllers
 
             Villa model = _mapper.Map<Villa>(updateDTO);
 
-            _db.Villas.Update(model);
-            await _db.SaveChangesAsync();
+            await _repository.UpdateAsync(model);
+           
 
             return NoContent();
         }
@@ -144,8 +143,7 @@ namespace villa_app_api.Controllers
                 return BadRequest();
             }
 
-            var villa = await _db.Villas.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
-            // AsNoTracking serve para que o ef core não mantenha o dado rastreado para evitar conflito ao manipular com o partial update
+            var villa = await _repository.GetAsync(x => x.Id == id);
 
             VillaUpdateDTO villaDTO = _mapper.Map<VillaUpdateDTO>(villa);
  
@@ -160,8 +158,7 @@ namespace villa_app_api.Controllers
             Villa model = _mapper.Map<Villa>(villaDTO);
 
 
-            _db.Villas.Update(model);
-            await _db.SaveChangesAsync();
+            _repository.UpdateAsync(model);
 
             if (!ModelState.IsValid)
             {

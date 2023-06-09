@@ -3,6 +3,8 @@
 using Microsoft.EntityFrameworkCore;
 using villa_app_api;
 using villa_app_api.Data;
+using villa_app_api.Repository;
+using villa_app_api.Repository.IRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +18,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(option => {
     option.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 }  
 );
-
+builder.Services.AddScoped<IVillaRepository, VillaRepository>();
 builder.Services.AddAutoMapper(typeof(MappingConfig));
 
 builder.Services.AddControllers(
