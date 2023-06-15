@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using villa_app_api.Data;
 
@@ -10,9 +11,10 @@ using villa_app_api.Data;
 namespace villa_app_api.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230615015209_AddVillaNumber")]
+    partial class AddVillaNumber
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -65,7 +67,7 @@ namespace villa_app_api.Migrations
                         {
                             Id = 1,
                             Amenity = "",
-                            CreatedDate = new DateTime(2023, 6, 14, 23, 28, 16, 744, DateTimeKind.Local).AddTicks(5702),
+                            CreatedDate = new DateTime(2023, 6, 14, 22, 52, 9, 321, DateTimeKind.Local).AddTicks(3403),
                             Details = "Lugar incrível",
                             ImageUrl = "",
                             Name = "Acapulco",
@@ -78,7 +80,7 @@ namespace villa_app_api.Migrations
                         {
                             Id = 2,
                             Amenity = "",
-                            CreatedDate = new DateTime(2023, 6, 14, 23, 28, 16, 744, DateTimeKind.Local).AddTicks(5716),
+                            CreatedDate = new DateTime(2023, 6, 14, 22, 52, 9, 321, DateTimeKind.Local).AddTicks(3416),
                             Details = "Frio demaize",
                             ImageUrl = "",
                             Name = "Campos do Jordão",
@@ -91,7 +93,7 @@ namespace villa_app_api.Migrations
                         {
                             Id = 3,
                             Amenity = "",
-                            CreatedDate = new DateTime(2023, 6, 14, 23, 28, 16, 744, DateTimeKind.Local).AddTicks(5717),
+                            CreatedDate = new DateTime(2023, 6, 14, 22, 52, 9, 321, DateTimeKind.Local).AddTicks(3417),
                             Details = "Molhado",
                             ImageUrl = "",
                             Name = "Beach Park",
@@ -117,25 +119,9 @@ namespace villa_app_api.Migrations
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("VillaId")
-                        .HasColumnType("int");
-
                     b.HasKey("VillaNo");
 
-                    b.HasIndex("VillaId");
-
                     b.ToTable("VillaNumbers");
-                });
-
-            modelBuilder.Entity("villa_app_api.Models.VillaNumber", b =>
-                {
-                    b.HasOne("villa_app_api.Models.Villa", "Villa")
-                        .WithMany()
-                        .HasForeignKey("VillaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Villa");
                 });
 #pragma warning restore 612, 618
         }
