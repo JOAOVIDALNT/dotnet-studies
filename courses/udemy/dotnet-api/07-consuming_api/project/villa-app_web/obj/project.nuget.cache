@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "L+hDOpeS3M3TkOwAfen7/q2mHRg+fpqa23N38qULUYPNHEj9HoMbze1Vsuy1Dg3d1FLekHipCTslkVsg6NDfcg==",
+  "dgSpecHash": "y9EuXUhawk0GrvN73OlZSs8H0hexBNav841KZs27uPRA9GWnOYeCrnuOzXcgnpH6PTV0NsHywL4qtp1ozvtC5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\07-consuming_api\\project\\villa-app_web\\villa-app_web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\joaov\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
