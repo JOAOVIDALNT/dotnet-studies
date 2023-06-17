@@ -1,7 +1,13 @@
 ﻿namespace villa_app_utility
 {
-    public class Class1
+    public static class Details
     {
-
+        public enum ApiType
+        {
+            GET,
+            POST,
+            PUT,
+            DELETE
+        }
     }
 }

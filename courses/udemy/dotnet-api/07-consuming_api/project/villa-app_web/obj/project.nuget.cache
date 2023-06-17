@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y9EuXUhawk0GrvN73OlZSs8H0hexBNav841KZs27uPRA9GWnOYeCrnuOzXcgnpH6PTV0NsHywL4qtp1ozvtC5g==",
+  "dgSpecHash": "ccVkawAL/8GvjzcXFs/09+j9XgcDiXfov1bzQF86l89cuYZJLUUmEMnavMNxB/F5OAE1Ymk4JGvoo/40u9Fn1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\07-consuming_api\\project\\villa-app_web\\villa-app_web.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

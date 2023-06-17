@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "villa-app_api", "villa-app_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "villa-app_web", "villa-app_web\villa-app_web.csproj", "{8A890875-7F57-4AE3-B99A-4B67370B7857}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "villa-app_utility", "villa-app_utility\villa-app_utility.csproj", "{389F5822-2123-4A6E-BBE1-EB10A78A3F79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8A890875-7F57-4AE3-B99A-4B67370B7857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A890875-7F57-4AE3-B99A-4B67370B7857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A890875-7F57-4AE3-B99A-4B67370B7857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389F5822-2123-4A6E-BBE1-EB10A78A3F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389F5822-2123-4A6E-BBE1-EB10A78A3F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389F5822-2123-4A6E-BBE1-EB10A78A3F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389F5822-2123-4A6E-BBE1-EB10A78A3F79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

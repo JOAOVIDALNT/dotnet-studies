@@ -1,23 +1,18 @@
 ﻿using AutoMapper;
-using villa_app_api.Models;
-using villa_app_api.Models.dto;
+using villa_app_web.Models;
+using villa_app_web.Models.dto;
 
-namespace villa_app_api
+namespace villa_app_web
 {
     public class MappingConfig : Profile
     {
         public MappingConfig()
         {
-            CreateMap<Villa, VillaDTO>(); // use .forMember to custom any property
-            CreateMap<VillaDTO, Villa>();
+            CreateMap<VillaDTO, VillaCreateDTO>().ReverseMap();
+            CreateMap<VillaDTO, VillaUpdateDTO>().ReverseMap();
 
-            CreateMap<Villa, VillaCreateDTO>().ReverseMap();
-            CreateMap<Villa, VillaUpdateDTO>().ReverseMap();
-
-
-            CreateMap<VillaNumber, VillaNumberDTO>().ReverseMap();
-            CreateMap<VillaNumber, VillaNumberCreateDTO>().ReverseMap();
-            CreateMap<VillaNumber, VillaNumberUpdateDTO>().ReverseMap();
+            CreateMap<VillaNumberDTO, VillaNumberCreateDTO>().ReverseMap();
+            CreateMap<VillaNumberDTO, VillaNumberUpdateDTO>().ReverseMap();
 
         }
     }
