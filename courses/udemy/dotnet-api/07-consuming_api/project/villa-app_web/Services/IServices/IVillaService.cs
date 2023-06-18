@@ -1,6 +1,14 @@
-﻿namespace villa_app_web.Services.IServices
+﻿using villa_app_web.Models.dto;
+
+namespace villa_app_web.Services.IServices
 {
-    public class IVillaService
+    public interface IVillaService
     {
+        Task<T> GetAllAsync<T>();
+        Task<T> GetAsync<T>(int id);
+        Task<T> CreateAsync<T>(VillaCreateDTO dto);
+        Task<T> UpdateAsync<T>(VillaUpdateDTO dto);
+        Task<T> DeleteAsync<T>(int id);
+
     }
 }
