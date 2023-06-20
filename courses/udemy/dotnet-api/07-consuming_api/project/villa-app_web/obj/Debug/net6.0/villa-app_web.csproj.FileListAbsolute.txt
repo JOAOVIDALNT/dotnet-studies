@@ -29,3 +29,9 @@ C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\07-consuming_a
 C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\07-consuming_api\project\villa-app_web\obj\Debug\net6.0\villa-app_web.pdb
 C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\07-consuming_api\project\villa-app_web\obj\Debug\net6.0\villa-app_web.genruntimeconfig.cache
 C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\07-consuming_api\project\villa-app_web\obj\Debug\net6.0\ref\villa-app_web.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\07-consuming_api\project\villa-app_web\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\07-consuming_api\project\villa-app_web\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\07-consuming_api\project\villa-app_web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\07-consuming_api\project\villa-app_web\bin\Debug\net6.0\villa-app_utility.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\07-consuming_api\project\villa-app_web\bin\Debug\net6.0\villa-app_utility.pdb
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\07-consuming_api\project\villa-app_web\obj\Debug\net6.0\villa-app_web.csproj.CopyComplete
