@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using villa_app_api.Data;
 
@@ -10,9 +11,10 @@ using villa_app_api.Data;
 namespace villa_app_api.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230630005425_SetNullables")]
+    partial class SetNullables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -26,18 +28,22 @@ namespace villa_app_api.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Amenity")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("Details")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("ImageUrl")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<int>("Occupancy")
@@ -61,7 +67,7 @@ namespace villa_app_api.Migrations
                         {
                             Id = 1,
                             Amenity = "",
-                            CreatedDate = new DateTime(2023, 6, 29, 22, 3, 43, 200, DateTimeKind.Local).AddTicks(2306),
+                            CreatedDate = new DateTime(2023, 6, 29, 21, 54, 25, 610, DateTimeKind.Local).AddTicks(8624),
                             Details = "Lugar incrível",
                             ImageUrl = "",
                             Name = "Acapulco",
@@ -74,7 +80,7 @@ namespace villa_app_api.Migrations
                         {
                             Id = 2,
                             Amenity = "",
-                            CreatedDate = new DateTime(2023, 6, 29, 22, 3, 43, 200, DateTimeKind.Local).AddTicks(2320),
+                            CreatedDate = new DateTime(2023, 6, 29, 21, 54, 25, 610, DateTimeKind.Local).AddTicks(8639),
                             Details = "Frio demaize",
                             ImageUrl = "",
                             Name = "Campos do Jordão",
@@ -87,7 +93,7 @@ namespace villa_app_api.Migrations
                         {
                             Id = 3,
                             Amenity = "",
-                            CreatedDate = new DateTime(2023, 6, 29, 22, 3, 43, 200, DateTimeKind.Local).AddTicks(2322),
+                            CreatedDate = new DateTime(2023, 6, 29, 21, 54, 25, 610, DateTimeKind.Local).AddTicks(8640),
                             Details = "Molhado",
                             ImageUrl = "",
                             Name = "Beach Park",
@@ -107,6 +113,7 @@ namespace villa_app_api.Migrations
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("Details")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<DateTime>("UpdatedDate")
