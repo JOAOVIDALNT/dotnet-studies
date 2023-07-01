@@ -56,15 +56,15 @@ namespace villa_app_api.Repository
             return await query.ToListAsync();
         }
 
-        public async Task SaveAsync()
-        {
-            await _db.SaveChangesAsync();
-        }
-
         public async Task RemoveAsync(T entity)
         {
             dbSet.Remove(entity);
             await SaveAsync();
+        }
+
+        public async Task SaveAsync()
+        {
+            await _db.SaveChangesAsync();
         }
     }
 }
