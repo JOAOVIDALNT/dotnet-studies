@@ -1,4 +1,4 @@
-﻿  using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using villa_app_utility;
 using villa_app_web.Models;
 using villa_app_web.Models.dto;
