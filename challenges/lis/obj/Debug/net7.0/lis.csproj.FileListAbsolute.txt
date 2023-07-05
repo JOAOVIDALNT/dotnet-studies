@@ -1,0 +1,15 @@
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\bin\Debug\net7.0\lis.exe
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\bin\Debug\net7.0\lis.deps.json
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\bin\Debug\net7.0\lis.runtimeconfig.json
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\bin\Debug\net7.0\lis.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\bin\Debug\net7.0\lis.pdb
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\obj\Debug\net7.0\lis.csproj.AssemblyReference.cache
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\obj\Debug\net7.0\lis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\obj\Debug\net7.0\lis.AssemblyInfoInputs.cache
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\obj\Debug\net7.0\lis.AssemblyInfo.cs
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\obj\Debug\net7.0\lis.csproj.CoreCompileInputs.cache
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\obj\Debug\net7.0\lis.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\obj\Debug\net7.0\refint\lis.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\obj\Debug\net7.0\lis.pdb
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\obj\Debug\net7.0\lis.genruntimeconfig.cache
+C:\Users\joaov\dev\dotnet\dotnet-studies\challenges\lis\obj\Debug\net7.0\ref\lis.dll
