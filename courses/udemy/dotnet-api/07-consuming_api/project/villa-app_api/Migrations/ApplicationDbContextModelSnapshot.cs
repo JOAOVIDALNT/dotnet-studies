@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using villa_app_api.Data;
 
@@ -17,7 +18,9 @@ namespace villa_app_api.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "6.0.16")
-                .HasAnnotation("Relational:MaxIdentifierLength", 64);
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
             modelBuilder.Entity("villa_app_api.Models.Villa", b =>
                 {
@@ -25,32 +28,34 @@ namespace villa_app_api.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
                     b.Property<string>("Amenity")
-                        .HasColumnType("longtext");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Details")
-                        .HasColumnType("longtext");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
-                        .HasColumnType("longtext");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("longtext");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Occupancy")
                         .HasColumnType("int");
 
                     b.Property<double>("Rate")
-                        .HasColumnType("double");
+                        .HasColumnType("float");
 
                     b.Property<int>("Sqft")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -61,7 +66,7 @@ namespace villa_app_api.Migrations
                         {
                             Id = 1,
                             Amenity = "",
-                            CreatedDate = new DateTime(2023, 6, 29, 22, 3, 43, 200, DateTimeKind.Local).AddTicks(2306),
+                            CreatedDate = new DateTime(2023, 7, 7, 20, 22, 27, 468, DateTimeKind.Local).AddTicks(2026),
                             Details = "Lugar incrível",
                             ImageUrl = "",
                             Name = "Acapulco",
@@ -74,7 +79,7 @@ namespace villa_app_api.Migrations
                         {
                             Id = 2,
                             Amenity = "",
-                            CreatedDate = new DateTime(2023, 6, 29, 22, 3, 43, 200, DateTimeKind.Local).AddTicks(2320),
+                            CreatedDate = new DateTime(2023, 7, 7, 20, 22, 27, 468, DateTimeKind.Local).AddTicks(2035),
                             Details = "Frio demaize",
                             ImageUrl = "",
                             Name = "Campos do Jordão",
@@ -87,7 +92,7 @@ namespace villa_app_api.Migrations
                         {
                             Id = 3,
                             Amenity = "",
-                            CreatedDate = new DateTime(2023, 6, 29, 22, 3, 43, 200, DateTimeKind.Local).AddTicks(2322),
+                            CreatedDate = new DateTime(2023, 7, 7, 20, 22, 27, 468, DateTimeKind.Local).AddTicks(2036),
                             Details = "Molhado",
                             ImageUrl = "",
                             Name = "Beach Park",
@@ -104,13 +109,13 @@ namespace villa_app_api.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Details")
-                        .HasColumnType("longtext");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("VillaId")
                         .HasColumnType("int");

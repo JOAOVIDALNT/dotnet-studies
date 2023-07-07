@@ -14,8 +14,11 @@ var builder = WebApplication.CreateBuilder(args);
 // // Configuração do serilog para logar as infos em um arquivo
 // builder.Host.UseSerilog(); // define que o serilog será o logger padrão
 builder.Services.AddDbContext<ApplicationDbContext>(option => {
-    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-    option.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+
+    option.UseSqlServer(builder.Configuration.GetConnectionString("SQLServerConnection"));
+
+    //var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    //option.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 }  
 );
 builder.Services.AddScoped<IVillaRepository, VillaRepository>();
