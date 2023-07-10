@@ -98,6 +98,7 @@ namespace villa_app_api.Controllers
 
                 Villa villa = _mapper.Map<Villa>(createDTO);
 
+                villa.CreatedDate = DateTime.Now;
                 await _repository.CreateAsync(villa);
 
                 _response.Result = _mapper.Map<VillaDTO>(villa);
