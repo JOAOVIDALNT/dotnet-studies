@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MyTable_API.props" />
+</Project>
