@@ -51,15 +51,15 @@ namespace MyTable_API.Controllers
         {
             try
             {
-                var book = await _repository.GetAsync(x => x.Id == id);
+                var entity = await _repository.GetAsync(x => x.Id == id);
 
-                if (book == null)
+                if (entity == null)
                 {
                     _response.StatusCode = HttpStatusCode.NotFound;
                     return NotFound(_response);
                 }
 
-                _response.Result = _mapper.Map<BookDTO>(book);
+                _response.Result = _mapper.Map<BookDTO>(entity);
                 _response.StatusCode = HttpStatusCode.OK;
 
                 return Ok(_response);
@@ -99,6 +99,37 @@ namespace MyTable_API.Controllers
 
                 return CreatedAtRoute("GetBook", new { id = book.Id }, _response);
 
+
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.ErrorMessages = new List<string> { ex.ToString() };
+            }
+
+            return _response;
+        }
+
+        [HttpPut("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<APIResponse>> UpdateBook(int id)
+        {
+            try
+            {
+                var entity = await _repository.GetAsync(x => x.Id == id);
+            
+                if (entity == null)
+                {
+                    _response.StatusCode = HttpStatusCode.NotFound;
+                    return NotFound(_response);
+                }
+
+                await _repository.UpdateAsync(entity);
+
+                _response.Result = _mapper.Map<BookDTO>(entity);
+                _response.StatusCode = HttpStatusCode.OK;
+                return Ok(_response);
 
             }
             catch (Exception ex)
