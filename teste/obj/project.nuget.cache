@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XgGHphEEIUzxSfe9sJtSIGlA6W8ayUmrMc02b8iwh1nrqQ07bq84DiHpi08DNiC/uFOpb0Btaw4gy3Z3ka10Wg==",
+  "dgSpecHash": "uKfnhbbpcFgH3lBRobGSwAvXVZKCZ8+SxPyx9SjlY7k+LOWzzQXVY0ZR2A+Ih6HPQxUZzFZo1EIe2ZDnIvLsQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\teste\\teste.csproj",
+  "projectFilePath": "c:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\teste\\teste.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
