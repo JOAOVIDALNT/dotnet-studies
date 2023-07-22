@@ -8,7 +8,7 @@ public interface IBookRepository
     Task<List<Book>> GetAllAsync(Expression<Func<Book, bool>>? filter = null);
     Task<Book> GetAsync(Expression<Func<Book, bool>>? filter = null, bool tracked = true);
     Task CreateAsync(Book entity);
-    Task<Book> UpdateAsync(Book entity);
-    Task DeleteAsync(int id);
+    Task UpdateAsync(Book entity);
+    Task DeleteAsync(Book entity);
     Task SaveAsync();
 }

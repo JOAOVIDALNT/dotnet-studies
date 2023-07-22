@@ -1,20 +1,14 @@
-﻿
-using MyTable_API.Models.Enums;
-using System.ComponentModel;
+﻿using MyTable_API.Models.Enums;
 using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
+using System.ComponentModel;
 
 namespace MyTable_API.Models.Dtos
 {
     public class BookDTO
     {
-        [Required]
+        public int Id { get; set; }
         public string Title { get; set; }
-        [Required]
         public string Author { get; set; }
-
-        [EnumDataType(typeof(GenreEnum))]
-        [DefaultValue("ROMANCE")]
         public string? Genre { get; set; }
         public int? Pages { get; set; }
     }

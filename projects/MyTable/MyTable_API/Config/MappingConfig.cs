@@ -6,8 +6,9 @@ namespace MyTable_API.Config
 {
     public class MappingConfig : Profile
     {
-        public MappingConfig() 
+        public MappingConfig()
         {
+            CreateMap<Book, BookCreateDTO>().ReverseMap();
             CreateMap<Book, BookDTO>().ReverseMap();
         }
     }

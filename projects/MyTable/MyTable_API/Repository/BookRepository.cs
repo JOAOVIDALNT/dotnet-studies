@@ -13,7 +13,7 @@ public class BookRepository : IBookRepository
     public BookRepository(Context db)
     {
         _db = db;
-        this.dbSet = db.Set<Book>();
+        dbSet = db.Set<Book>();
     }
 
     public async Task<List<Book>> GetAllAsync(Expression<Func<Book, bool>>? filter = null)
@@ -51,16 +51,14 @@ public class BookRepository : IBookRepository
         await SaveAsync();
     }
 
-    public async Task<Book> UpdateAsync(Book entity)
+    public async Task UpdateAsync(Book entity)
     {
         dbSet.Update(entity);
         await SaveAsync();
-        return entity;
     }
 
-    public async Task DeleteAsync(int id)
+    public async Task DeleteAsync(Book entity)
     {
-        var entity = await dbSet.FindAsync(id);
         dbSet.Remove(entity);
         await SaveAsync();
 

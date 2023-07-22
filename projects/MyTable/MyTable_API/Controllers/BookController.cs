@@ -12,7 +12,6 @@ namespace MyTable_API.Controllers
     public class BookController : ControllerBase
     {
         protected APIResponse _response;
-        // private readonly IRepository<Book> _repository;
         private readonly IBookRepository _repository;
         private readonly IMapper _mapper;
 
@@ -25,11 +24,21 @@ namespace MyTable_API.Controllers
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<APIResponse>> GetBooks()
         {
             try
             {
                 IEnumerable<Book> bookList = await _repository.GetAllAsync();
+
+                if (!bookList.Any())
+                {
+                    _response.IsSuccess = false;
+                    _response.StatusCode = HttpStatusCode.NotFound;
+                    _response.ErrorMessages = new List<string> { "No books yet" };
+                    return NotFound(_response);
+                }
+
                 _response.Result = _mapper.Map<List<BookDTO>>(bookList);
                 _response.StatusCode = HttpStatusCode.OK;
                 return Ok(_response);
@@ -55,7 +64,9 @@ namespace MyTable_API.Controllers
 
                 if (entity == null)
                 {
+                    _response.IsSuccess = false;
                     _response.StatusCode = HttpStatusCode.NotFound;
+                    _response.ErrorMessages = new List<string> { $"Nenhum livro encontrado com o id: {id}" };
                     return NotFound(_response);
                 }
 
@@ -77,28 +88,26 @@ namespace MyTable_API.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<APIResponse>> CreateBook([FromBody] BookDTO bookDTO)
+        public async Task<ActionResult<APIResponse>> CreateBook([FromBody] BookCreateDTO bookDTO)
         {
             try
             {
                 if (await _repository
                         .GetAsync(x => x.Title.ToUpper() == bookDTO.Title.ToUpper()) != null)
                 {
-                    ModelState.AddModelError("Message", "Book already exists");
-                    return BadRequest(ModelState);
+                    _response.IsSuccess = false;
+                    _response.StatusCode = HttpStatusCode.BadRequest;
+                    _response.ErrorMessages = new List<string> { $"Book with title '{bookDTO.Title}' already exists" };
+                    return BadRequest(_response);
                 }
                 
-                // todo: Adicionar validações
-
                 Book book = _mapper.Map<Book>(bookDTO);
-
                 await _repository.CreateAsync(book);
 
-                _response.Result = _mapper.Map<BookDTO>(book);
+                _response.Result = _mapper.Map<BookCreateDTO>(book);
                 _response.StatusCode = HttpStatusCode.Created;
 
                 return CreatedAtRoute("GetBook", new { id = book.Id }, _response);
-
 
             }
             catch (Exception ex)
@@ -113,7 +122,7 @@ namespace MyTable_API.Controllers
         [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<APIResponse>> UpdateBook(int id)
+        public async Task<ActionResult<APIResponse>> UpdateBook(int id, [FromBody] BookCreateDTO createDTO)
         {
             try
             {
@@ -121,9 +130,17 @@ namespace MyTable_API.Controllers
             
                 if (entity == null)
                 {
+                    _response.IsSuccess = false;
                     _response.StatusCode = HttpStatusCode.NotFound;
+                    _response.ErrorMessages = new List<string>{ ""};
                     return NotFound(_response);
                 }
+
+                entity.Title = createDTO.Title;
+                entity.Author = createDTO.Author;
+                entity.Genre = createDTO.Genre;
+                entity.Pages = createDTO.Pages;
+                entity.UpdatedAt = DateTime.Now;
 
                 await _repository.UpdateAsync(entity);
 
@@ -131,6 +148,37 @@ namespace MyTable_API.Controllers
                 _response.StatusCode = HttpStatusCode.OK;
                 return Ok(_response);
 
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.ErrorMessages = new List<string> { ex.ToString() };
+            }
+
+            return _response;
+        }
+
+
+        [HttpDelete("{id}")]
+        [ProducesResponseType (StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<APIResponse>> DeleteBook(int id)
+        {
+            try
+            {
+                var entity = await _repository.GetAsync(x => x.Id == id);
+
+                if (entity == null)
+                {
+                    _response.StatusCode = HttpStatusCode.NotFound;
+                    return NotFound(_response);
+                }
+
+                await _repository.DeleteAsync(entity);
+
+                _response.Result = _mapper.Map<BookDTO>(entity);
+                _response.StatusCode = HttpStatusCode.OK;
+                return Ok(_response);
             }
             catch (Exception ex)
             {
