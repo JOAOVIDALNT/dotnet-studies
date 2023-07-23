@@ -16,7 +16,7 @@ namespace MyTable_API.Controllers
         private readonly IMapper _mapper;
 
         public BookController(IBookRepository repository, IMapper mapper)
-        {
+        {                           
             _repository = repository;
             _mapper = mapper;
             this._response = new();
@@ -104,7 +104,7 @@ namespace MyTable_API.Controllers
                 Book book = _mapper.Map<Book>(bookDTO);
                 await _repository.CreateAsync(book);
 
-                _response.Result = _mapper.Map<BookCreateDTO>(book);
+                _response.Result = _mapper.Map<BookDTO>(book);
                 _response.StatusCode = HttpStatusCode.Created;
 
                 return CreatedAtRoute("GetBook", new { id = book.Id }, _response);
@@ -132,7 +132,7 @@ namespace MyTable_API.Controllers
                 {
                     _response.IsSuccess = false;
                     _response.StatusCode = HttpStatusCode.NotFound;
-                    _response.ErrorMessages = new List<string>{ ""};
+                    _response.ErrorMessages = new List<string>{ $"Nenhum livro encontrado com o id: {id}" };
                     return NotFound(_response);
                 }
 
@@ -170,7 +170,9 @@ namespace MyTable_API.Controllers
 
                 if (entity == null)
                 {
+                    _response.IsSuccess = false;
                     _response.StatusCode = HttpStatusCode.NotFound;
+                    _response.ErrorMessages = new List<string> { $"Nenhum livro encontrado com o id: {id}" };
                     return NotFound(_response);
                 }
 
