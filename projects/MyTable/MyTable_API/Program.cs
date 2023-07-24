@@ -6,10 +6,14 @@ using Microsoft.EntityFrameworkCore;
 using MyTable_API.Config;
 using MyTable_API.Data;
 using MyTable_API.Repository;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+var key = Encoding.ASCII.GetBytes(SecurityConfig.Secret);
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

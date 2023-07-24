@@ -19,7 +19,7 @@ namespace MyTable_API.Controllers
         {                           
             _repository = repository;
             _mapper = mapper;
-            this._response = new();
+            _response = new();
         }
 
         [HttpGet]
