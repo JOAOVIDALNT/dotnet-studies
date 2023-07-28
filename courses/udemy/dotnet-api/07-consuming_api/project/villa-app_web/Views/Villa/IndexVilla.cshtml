@@ -36,8 +36,8 @@
                     <td>@((item.Rate).ToString("c"))</td> 
                     @*"c" define currency como formatação*@
                     <td>
-                        <a asp-controller="Villa" asp-action="UpdateVilla" class="btn btn-success"><i class="bi bi-pencil-square"></i></a>
-                        <a asp-controller="Villa" asp-action="DeleteVilla" class="btn btn-danger"><i class="bi bi-trash3"></i></a>
+                        <a asp-controller="Villa" asp-action="UpdateVilla" asp-route-id="@item.Id" class="btn btn-success"><i class="bi bi-pencil-square"></i></a>
+                        <a asp-controller="Villa" asp-action="DeleteVilla" asp-route-id="@item.Id" class="btn btn-danger"><i class="bi bi-trash3"></i></a>
                     </td>
                 </tr>
             }

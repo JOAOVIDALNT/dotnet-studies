@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Collections.Generic;
+using System.Reflection;
 using villa_app_web.Models;
 using villa_app_web.Models.dto;
 using villa_app_web.Services.IServices;
@@ -43,6 +44,33 @@ namespace villa_app_web.Controllers
             if(ModelState.IsValid) // Model state validation refere-se as anotações do dto Ex: [Required]
             {
                 var response = await _villaService.CreateAsync<APIResponse>(model);
+                if (response != null && response.IsSuccess)
+                {
+                    return RedirectToAction(nameof(IndexVilla));
+                }
+            }
+            return View(model);
+        }
+
+        public async Task<IActionResult> UpdateVilla(int id)
+        {
+            var response = await _villaService.GetAsync<APIResponse>(id);
+            if (response != null && response.IsSuccess)
+            {
+                VillaDTO model = JsonConvert.DeserializeObject<VillaDTO>(Convert.ToString(response.Result));
+                return View(_mapper.Map<VillaUpdateDTO>(model));
+            }
+
+            return NotFound();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateVilla(VillaUpdateDTO model)
+        {
+            if (ModelState.IsValid) // Model state validation refere-se as anotações do dto Ex: [Required]
+            {
+                var response = await _villaService.UpdateAsync<APIResponse>(model);
                 if (response != null && response.IsSuccess)
                 {
                     return RedirectToAction(nameof(IndexVilla));
