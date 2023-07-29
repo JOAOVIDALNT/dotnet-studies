@@ -36,8 +36,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlsbGFcQ3JlYXRlVmlsbGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/joaov/dev/dotnet/dotnet-studies/courses/udemy/dotnet-api/07-consuming_api/project/villa-app_web/Views/Villa/DeleteVilla.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlsbGFcRGVsZXRlVmlsbGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/joaov/dev/dotnet/dotnet-studies/courses/udemy/dotnet-api/07-consuming_api/project/villa-app_web/Views/Villa/IndexVilla.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlsbGFcSW5kZXhWaWxsYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joaov/dev/dotnet/dotnet-studies/courses/udemy/dotnet-api/07-consuming_api/project/villa-app_web/Views/Villa/UpdateVilla.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlsbGFcVXBkYXRlVmlsbGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/joaov/dev/dotnet/dotnet-studies/courses/udemy/dotnet-api/07-consuming_api/project/villa-app_web/Views/_ViewImports.cshtml]
