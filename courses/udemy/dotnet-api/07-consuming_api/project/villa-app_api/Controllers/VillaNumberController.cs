@@ -97,6 +97,8 @@ namespace villa_app_api.Controllers
 
                 VillaNumber villaNumber = _mapper.Map<VillaNumber>(createDTO);
 
+                villaNumber.CreatedDate = DateTime.Now;
+
                 await _repository.CreateAsync(villaNumber);
 
                 _response.Result = _mapper.Map<VillaNumberDTO>(villaNumber);
