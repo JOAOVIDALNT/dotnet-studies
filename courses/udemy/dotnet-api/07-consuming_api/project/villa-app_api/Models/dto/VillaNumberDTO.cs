@@ -13,5 +13,6 @@ namespace villa_app_api.Models.dto
         [Required]
         public int VillaId { get; set; }
         public string Details { get; set; }
+        public VillaDTO Villa { get; set; }
     }
 }
