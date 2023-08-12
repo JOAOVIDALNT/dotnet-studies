@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h9ZKpVflIWU70xY/Z0Fw3cbGqNNi0Tr5v+/FyHff7EU=",
+  "Hash": "Iu3Qgjj8U+gBoAFYnBjU+tutK5J7sWQ3/BplRinFLWk=",
   "Source": "villa-app_web",
   "BasePath": "_content/villa-app_web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\07-consuming_api\\project\\villa-app_web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\villa-app_web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\07-consuming_api\\project\\villa-app_web\\wwwroot\\css\\bootstrap.css",
+      "SourceId": "villa-app_web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\07-consuming_api\\project\\villa-app_web\\wwwroot\\",
+      "BasePath": "_content/villa-app_web",
+      "RelativePath": "css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
       "Identity": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\07-consuming_api\\project\\villa-app_web\\wwwroot\\css\\site.css",
