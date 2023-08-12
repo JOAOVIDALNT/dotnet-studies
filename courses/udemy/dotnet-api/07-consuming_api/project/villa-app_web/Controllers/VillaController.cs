@@ -64,7 +64,7 @@ namespace villa_app_web.Controllers
             return NotFound();
         }
 
-        [HttpPut]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> UpdateVilla(VillaUpdateDTO model)
         {
@@ -91,7 +91,7 @@ namespace villa_app_web.Controllers
             return NotFound();
         }
 
-        [HttpDelete]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteVilla(VillaDTO model)
         {
