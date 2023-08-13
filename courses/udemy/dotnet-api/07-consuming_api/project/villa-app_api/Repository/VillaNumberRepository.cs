@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 using villa_app_api.Data;
-using villa_app_api.Models;
+using villa_app_api.Models.Entities;
 using villa_app_api.Repository.IRepository;
 
 namespace villa_app_api.Repository

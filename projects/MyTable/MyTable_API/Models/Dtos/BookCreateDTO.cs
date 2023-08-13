@@ -10,12 +10,14 @@ namespace MyTable_API.Models.Dtos
     {
         [Required]
         public string Title { get; set; }
+        
         [Required]
         public string Author { get; set; }
 
         [EnumDataType(typeof(GenreEnum))]
         [DefaultValue("ROMANCE")]
         public string? Genre { get; set; }
+
         public int? Pages { get; set; }
     }
 }

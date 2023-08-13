@@ -15,7 +15,5 @@ namespace MyTable_API.Models
         public int? Pages { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
-
-
     }
 }

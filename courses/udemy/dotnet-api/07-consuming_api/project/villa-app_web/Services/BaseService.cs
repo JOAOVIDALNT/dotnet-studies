@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Text;
 using villa_app_utility;
-using villa_app_web.Models;
+using villa_app_web.Models.Entities;
 using villa_app_web.Services.IServices;
 
 namespace villa_app_web.Services

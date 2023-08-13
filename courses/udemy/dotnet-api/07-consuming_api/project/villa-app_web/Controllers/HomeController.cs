@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Diagnostics;
-using villa_app_web.Models;
-using villa_app_web.Models.dto;
+using villa_app_web.Models.Dtos;
+using villa_app_web.Models.Entities;
 using villa_app_web.Services.IServices;
 
 namespace villa_app_web.Controllers

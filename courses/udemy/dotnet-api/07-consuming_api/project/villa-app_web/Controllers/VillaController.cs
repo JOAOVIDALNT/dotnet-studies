@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Reflection;
-using villa_app_web.Models;
-using villa_app_web.Models.dto;
+using villa_app_web.Models.Dtos;
+using villa_app_web.Models.Entities;
 using villa_app_web.Services.IServices;
 
 namespace villa_app_web.Controllers
@@ -41,7 +41,7 @@ namespace villa_app_web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateVilla(VillaCreateDTO model)
         {
-            if(ModelState.IsValid) // Model state validation refere-se as anotações do dto Ex: [Required]
+            if(ModelState.IsValid) // Model state validation refere-se as anotações do Dtos Ex: [Required]
             {
                 var response = await _villaService.CreateAsync<APIResponse>(model);
                 if (response != null && response.IsSuccess)
@@ -68,7 +68,7 @@ namespace villa_app_web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> UpdateVilla(VillaUpdateDTO model)
         {
-            if (ModelState.IsValid) // Model state validation refere-se as anotações do dto Ex: [Required]
+            if (ModelState.IsValid) // Model state validation refere-se as anotações do Dtos Ex: [Required]
             {
                 var response = await _villaService.UpdateAsync<APIResponse>(model);
                 if (response != null && response.IsSuccess)

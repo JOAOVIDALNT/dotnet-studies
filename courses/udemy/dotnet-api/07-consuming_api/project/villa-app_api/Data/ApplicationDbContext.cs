@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using villa_app_api.Models;
+using villa_app_api.Models.Entities;
 
 namespace villa_app_api.Data
 {

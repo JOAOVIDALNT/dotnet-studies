@@ -1,5 +1,5 @@
 ﻿using System.Linq.Expressions;
-using villa_app_api.Models;
+using villa_app_api.Models.Entities;
 
 namespace villa_app_api.Repository.IRepository
 {

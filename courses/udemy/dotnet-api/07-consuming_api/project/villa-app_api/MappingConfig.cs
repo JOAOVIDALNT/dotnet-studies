@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using villa_app_api.Models;
-using villa_app_api.Models.dto;
+using villa_app_api.Models.Dtos;
+using villa_app_api.Models.Entities;
 
 namespace villa_app_api
 {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj": {}
+    "c:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj": {
+    "c:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj",
+        "projectUniqueName": "c:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj",
         "projectName": "MyTable_API",
-        "projectPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj",
+        "projectPath": "c:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj",
         "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\obj\\",
+        "outputPath": "c:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaov\\AppData\\Roaming\\NuGet\\NuGet.Config",

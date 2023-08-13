@@ -1,4 +1,4 @@
-﻿using villa_app_web.Models;
+﻿using villa_app_web.Models.Entities;
 
 namespace villa_app_web.Services.IServices
 {

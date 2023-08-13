@@ -2,8 +2,8 @@ using System.Net;
 using AutoMapper;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using villa_app_api.Models;
-using villa_app_api.Models.dto;
+using villa_app_api.Models.Dtos;
+using villa_app_api.Models.Entities;
 using villa_app_api.Repository.IRepository;
 
 namespace villa_app_api.Controllers
@@ -149,7 +149,7 @@ namespace villa_app_api.Controllers
 
         }
 
-        [HttpPut("{id}", Name = "UpdateVilla")]
+        [HttpPut("{id}", Name = "UpdateVillaNumber")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<APIResponse>> UpdateVilla(int id, [FromBody] VillaUpdateDTO updateDTO)
