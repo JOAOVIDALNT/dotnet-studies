@@ -10,6 +10,7 @@ namespace villa_app_api.Models.Dtos
     {
         [Required]
         public int VillaNo { get; set; }
+        public int VillaId { get; set; }
         public string Details { get; set; }
     }
 }

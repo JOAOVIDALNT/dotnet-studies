@@ -14,9 +14,11 @@ namespace villa_app_api.Controllers
         protected APIResponse _response;
         private readonly IVillaNumberRepository _repository;
         private readonly IMapper _mapper;
+        private readonly IVillaRepository _villaRepository;
 
-        public VillaNumberController(IVillaNumberRepository repository, IMapper mapper)
+        public VillaNumberController(IVillaNumberRepository repository, IMapper mapper, IVillaRepository villaRepository)
         {
+            _villaRepository = villaRepository;
             _repository = repository;
             _mapper = mapper;
             this._response = new();
@@ -86,7 +88,12 @@ namespace villa_app_api.Controllers
             {
                 if (await _repository.GetAsync(x => x.VillaNo == createDTO.VillaNo) != null)
                 {
-                    ModelState.AddModelError("Message", "Villa Number already exists");
+                    ModelState.AddModelError("ErrorMessages", "Villa Number already exists");
+                    return BadRequest(ModelState);
+                }
+                if (await _villaRepository.GetAsync(x => x.Id == createDTO.VillaId) == null)
+                {
+                    ModelState.AddModelError("ErrorMessages", "Villa ID is invalid");
                     return BadRequest(ModelState);
                 }
 
@@ -159,6 +166,11 @@ namespace villa_app_api.Controllers
                 if (updateDTO == null || id != updateDTO.VillaNo)
                 {
                     return BadRequest();
+                }
+                if (await _villaRepository.GetAsync(x => x.Id == updateDTO.VillaId) == null)
+                {
+                    ModelState.AddModelError("ErrorMessages", "Villa ID is invalid");
+                    return BadRequest(ModelState);
                 }
 
                 VillaNumber villaNumber = _mapper.Map<VillaNumber>(updateDTO);

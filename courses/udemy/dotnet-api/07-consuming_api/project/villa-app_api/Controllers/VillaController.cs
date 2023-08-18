@@ -87,7 +87,7 @@ namespace villa_app_api.Controllers
             {
                 if (await _repository.GetAsync(x => x.Name.ToLower() == createDTO.Name.ToLower()) != null)
                 {
-                    ModelState.AddModelError("Message", "Villa already exists");
+                    ModelState.AddModelError("ErrorMessages", "Villa already exists");
                     return BadRequest(ModelState);
                 }
 
@@ -149,7 +149,7 @@ namespace villa_app_api.Controllers
 
         }
 
-        [HttpPut("{id}", Name = "UpdateVillaNumber")]
+        [HttpPut("{id}", Name = "UpdateVilla")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<APIResponse>> UpdateVilla(int id, [FromBody] VillaUpdateDTO updateDTO)
