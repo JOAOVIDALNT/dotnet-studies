@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kzzPlkrC04TA6oNz965Dn62Pt2bc2abHTG08Pak4MFtm5rPV4zo4AiChxu55KhlwyEZUe1EIzgW1Sgr2QldMLQ==",
+  "dgSpecHash": "dG1++zTOYEpL1oQBzwwj4Lgfp6LemwDUTBheh0vYmYaLXOM1bKJ0Gq0aQ0EXEC7+njn4XoD1LdXnLxsGjqdYKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\07-consuming_api\\project\\villa-app_utility\\villa-app_utility.csproj",
+  "projectFilePath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_utility\\villa-app_utility.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
