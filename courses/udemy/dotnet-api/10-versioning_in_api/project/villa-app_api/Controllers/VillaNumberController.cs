@@ -10,7 +10,9 @@ using System.Data;
 namespace villa_app_api.Controllers
 {
     [ApiController]
-    [Route("api/villa-number")]
+    [Route("api/v{version:apiVersion}/villa-number")]
+    [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
     public class VillaNumberController : ControllerBase
     {
         protected APIResponse _response;
@@ -26,6 +28,7 @@ namespace villa_app_api.Controllers
             this._response = new();
         }
 
+        [MapToApiVersion("1.0")]
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<APIResponse>> GetVillaNumbers()
@@ -44,6 +47,13 @@ namespace villa_app_api.Controllers
                 _response.ErrorMessages = new List<string> { ex.ToString() };
             }
             return _response;
+        }
+
+        [MapToApiVersion("2.0")]
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            return new string[] { "velue1", "value2" };
         }
 
         [HttpGet("{id}", Name = "GetVillaNumber")]

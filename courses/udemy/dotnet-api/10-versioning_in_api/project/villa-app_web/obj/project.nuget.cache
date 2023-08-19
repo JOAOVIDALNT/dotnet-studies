@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SI1d/BGx1igL6MnkSSkwceNPk8mNY4/00zJWXsMIAvx3VnIPptwcfpB3YReXm0ULfylLidooTq01mVD+fLBMqw==",
+  "dgSpecHash": "+BI1zaORcA3wFBe6Q53T5XZAtdFdnZ/Xaw7p9agM86wfif2L9cCuMANw94iKbfEJ6nNOIe3OV6G6o9YXVwxOUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\09-consuming_secured_api\\project\\villa-app_web\\villa-app_web.csproj",
+  "projectFilePath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\10-versioning_in_api\\project\\villa-app_web\\villa-app_web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaov\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

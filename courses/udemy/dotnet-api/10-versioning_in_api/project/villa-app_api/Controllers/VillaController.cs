@@ -10,7 +10,8 @@ using villa_app_api.Repository.IRepository;
 namespace villa_app_api.Controllers
 {
     [ApiController]
-    [Route("api/villa-api")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/villa-api")]
     public class VillaController : ControllerBase
     {
         protected APIResponse _response;

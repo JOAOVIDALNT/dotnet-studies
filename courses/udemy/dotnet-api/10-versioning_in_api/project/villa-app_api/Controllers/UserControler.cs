@@ -6,7 +6,8 @@ using villa_app_api.Repository.IRepository;
 
 namespace villa_app_api.Controllers
 {
-    [Route("api/auth")]
+    [Route("api/v{version:apiVersion}/auth")]
+    [ApiVersion("1.0")]
     [ApiController]
     public class UserControler : Controller
     {

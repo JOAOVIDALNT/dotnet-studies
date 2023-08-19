@@ -1,6 +1,7 @@
 
 
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -51,6 +52,18 @@ builder.Services.AddAuthentication(x =>
         };
     });
 
+builder.Services.AddApiVersioning(options =>
+{
+    options.AssumeDefaultVersionWhenUnspecified = true; // ASSUME A VERSÃO DEFAULT, SEM ISSO É IMPOSSÍVEL REQUISITAR SEM DEFINIR
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+    options.ReportApiVersions = true; // RETORNA A VERSÃO NO HEADER DA REQUISIÇÃO
+});
+builder.Services.AddVersionedApiExplorer(options =>
+{
+    options.GroupNameFormat = "'v'VVV"; // DEFINIÇÃO EM CASO DE PRECISAR ESPECIFICAR UMA VERSÃO
+    options.SubstituteApiVersionInUrl = true; // SUBSTITUI A OPÇÃO DE REQUISITAR PASSANDO A VERSÃO /api/v{version}/villa-api -> /api/v1/villa-api
+});
+
 builder.Services.AddControllers(
     option => {
         // option.ReturnHttpNotAcceptable = true; // Aceita apenas Json, caso passemos accept xml no header ele retorna não permitido ao invés de retornar o Json
@@ -86,6 +99,41 @@ builder.Services.AddSwaggerGen(options =>
             new List<string>()
         }
     });
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Version = "v1.0",
+        Title = "Villa API",
+        Description = "API to manage Villa",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "João Vidal",
+            Url = new Uri("https://linktr.ee/fejota_dev")
+        },
+        License = new OpenApiLicense
+        {
+            Name = "Example License",
+            Url = new Uri("https://example.com/terms")
+        }
+    });
+
+    options.SwaggerDoc("v2", new OpenApiInfo
+    {
+        Version = "v2.0",
+        Title = "Villa API",
+        Description = "API to manage Villa",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "João Vidal",
+            Url = new Uri("https://linktr.ee/fejota_dev")
+        },
+        License = new OpenApiLicense
+        {
+            Name = "Example License",
+            Url = new Uri("https://example.com/terms")
+        }
+    });
 });
 
 var app = builder.Build();
@@ -94,7 +142,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "villa-api_v1");
+        options.SwaggerEndpoint("/swagger/v2/swagger.json", "villa-api_v2");
+    });
 }
 
 app.UseHttpsRedirection();
