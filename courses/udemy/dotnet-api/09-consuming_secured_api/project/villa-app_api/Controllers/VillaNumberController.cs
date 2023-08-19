@@ -4,6 +4,8 @@ using System.Net;
 using villa_app_api.Models.Dtos;
 using villa_app_api.Repository.IRepository;
 using villa_app_api.Models.Entities;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace villa_app_api.Controllers
 {
@@ -79,6 +81,7 @@ namespace villa_app_api.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -122,6 +125,7 @@ namespace villa_app_api.Controllers
         }
 
         [HttpDelete("{id}", Name = "DeleteVillaNumber")]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -157,6 +161,7 @@ namespace villa_app_api.Controllers
         }
 
         [HttpPut("{id}", Name = "UpdateVillaNumber")]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<APIResponse>> UpdateVillaNumber(int id, [FromBody] VillaNumberUpdateDTO updateDTO)
