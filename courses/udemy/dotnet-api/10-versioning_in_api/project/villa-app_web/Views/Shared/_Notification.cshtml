@@ -1,0 +1,31 @@
+﻿@*Partial views, geralmente iniciadas com um underline, são views que estrão dentro de outras views*@
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+@if (TempData["success"] != null)
+{
+    <script type="text/javascript">
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: '@TempData["success"]',
+            showConfirmButton: false,
+            timer: 1500,
+            timerProgressBar: true
+        })
+    </script>
+}
+
+@if (TempData["error"] != null)
+{
+    <script type="text/javascript">
+        Swal.fire({
+            position: 'top-end',
+            icon: 'error',
+            title: '@TempData["error"]',
+            showConfirmButton: false,
+            timer: 1500,
+            timerProgressBar: true
+        })
+    </script>
+}
+
+@*para adicionar a partial para todo o projeto basta referencia-la em _Layout e checar se o JQuery está devidamente instalado*@
