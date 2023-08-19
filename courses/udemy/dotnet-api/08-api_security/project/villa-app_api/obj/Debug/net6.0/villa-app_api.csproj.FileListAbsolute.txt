@@ -333,3 +333,4 @@ C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\08-api_securit
 C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\08-api_security\project\villa-app_api\obj\Debug\net6.0\villa-app_api.pdb
 C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\08-api_security\project\villa-app_api\obj\Debug\net6.0\villa-app_api.genruntimeconfig.cache
 C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\08-api_security\project\villa-app_api\obj\Debug\net6.0\ref\villa-app_api.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\08-api_security\project\villa-app_api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
