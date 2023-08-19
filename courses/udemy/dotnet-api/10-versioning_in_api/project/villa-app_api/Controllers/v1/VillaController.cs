@@ -7,7 +7,7 @@ using villa_app_api.Models.Dtos;
 using villa_app_api.Models.Entities;
 using villa_app_api.Repository.IRepository;
 
-namespace villa_app_api.Controllers
+namespace villa_app_api.Controllers.v1
 {
     [ApiController]
     [ApiVersion("1.0")]
@@ -16,13 +16,13 @@ namespace villa_app_api.Controllers
     {
         protected APIResponse _response;
         private readonly IVillaRepository _repository;
-        private readonly IMapper _mapper;   
+        private readonly IMapper _mapper;
 
         public VillaController(IVillaRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
-            this._response = new();
+            _response = new();
         }
 
         [HttpGet]
@@ -38,7 +38,7 @@ namespace villa_app_api.Controllers
                 _response.Result = _mapper.Map<List<VillaDTO>>(villaList);
                 _response.StatusCode = HttpStatusCode.OK;
                 return Ok(_response);
-            } 
+            }
             catch (Exception ex)
             {
                 _response.IsSuccess = false;
@@ -201,7 +201,7 @@ namespace villa_app_api.Controllers
             var villa = await _repository.GetAsync(x => x.Id == id);
 
             VillaUpdateDTO villaDTO = _mapper.Map<VillaUpdateDTO>(villa);
- 
+
 
             if (villa == null)
             {

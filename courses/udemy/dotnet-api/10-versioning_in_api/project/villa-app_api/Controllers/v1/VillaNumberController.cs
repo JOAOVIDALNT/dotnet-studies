@@ -7,12 +7,12 @@ using villa_app_api.Models.Entities;
 using Microsoft.AspNetCore.Authorization;
 using System.Data;
 
-namespace villa_app_api.Controllers
+namespace villa_app_api.Controllers.v1
 {
     [ApiController]
     [Route("api/v{version:apiVersion}/villa-number")]
+    //[ApiVersion("1.0", Deprecated = true)] // DEPRECATED INDICARA NO HEADER DA REQUISIÇÃO QUE E VERSÃO ESTÁ DEPRECIADA
     [ApiVersion("1.0")]
-    [ApiVersion("2.0")]
     public class VillaNumberController : ControllerBase
     {
         protected APIResponse _response;
@@ -25,10 +25,10 @@ namespace villa_app_api.Controllers
             _villaRepository = villaRepository;
             _repository = repository;
             _mapper = mapper;
-            this._response = new();
+            _response = new();
         }
 
-        [MapToApiVersion("1.0")]
+        //[MapToApiVersion("1.0")]
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<APIResponse>> GetVillaNumbers()
@@ -36,7 +36,7 @@ namespace villa_app_api.Controllers
 
             try
             {
-                IEnumerable<VillaNumber> villaNumberList = await _repository.GetAllAsync(includeProperties:"Villa");
+                IEnumerable<VillaNumber> villaNumberList = await _repository.GetAllAsync(includeProperties: "Villa");
                 _response.Result = _mapper.Map<List<VillaNumberDTO>>(villaNumberList);
                 _response.StatusCode = HttpStatusCode.OK;
                 return Ok(_response);
@@ -47,13 +47,6 @@ namespace villa_app_api.Controllers
                 _response.ErrorMessages = new List<string> { ex.ToString() };
             }
             return _response;
-        }
-
-        [MapToApiVersion("2.0")]
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "velue1", "value2" };
         }
 
         [HttpGet("{id}", Name = "GetVillaNumber")]

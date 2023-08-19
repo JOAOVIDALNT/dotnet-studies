@@ -7,7 +7,7 @@ using villa_app_api.Repository.IRepository;
 namespace villa_app_api.Controllers
 {
     [Route("api/v{version:apiVersion}/auth")]
-    [ApiVersion("1.0")]
+    [ApiVersionNeutral] // DEFINE QUE O ENDPOINT NÃO VAI DEPENDER DE VERSÃO E SEMPRE SERÁ PRESENTE
     [ApiController]
     public class UserControler : Controller
     {
@@ -17,14 +17,14 @@ namespace villa_app_api.Controllers
         public UserControler(IUserRepository userRepository)
         {
             _userRepository = userRepository;
-            this._response = new();
+            _response = new();
         }
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequestDTO model)
         {
             var loginResponse = await _userRepository.Login(model);
-            if(loginResponse.User == null || string.IsNullOrEmpty(loginResponse.Token)) 
+            if (loginResponse.User == null || string.IsNullOrEmpty(loginResponse.Token))
             {
                 _response.StatusCode = HttpStatusCode.BadRequest;
                 _response.IsSuccess = false;
@@ -42,7 +42,7 @@ namespace villa_app_api.Controllers
         {
             bool ifUserNameUnique = _userRepository.IsUniqueUser(model.UserName);
 
-            if(!ifUserNameUnique)
+            if (!ifUserNameUnique)
             {
                 _response.StatusCode = HttpStatusCode.BadRequest;
                 _response.IsSuccess = false;
@@ -51,7 +51,7 @@ namespace villa_app_api.Controllers
             }
 
             var user = await _userRepository.Register(model);
-            if(user == null)
+            if (user == null)
             {
                 _response.StatusCode = HttpStatusCode.BadRequest;
                 _response.IsSuccess = false;

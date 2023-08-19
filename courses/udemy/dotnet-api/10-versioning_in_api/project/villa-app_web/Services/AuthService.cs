@@ -23,7 +23,7 @@ namespace villa_app_web.Services
             {
                 ApiType = Details.ApiType.POST,
                 Data = loginRequestDTO,
-                Url = villaUrl + "/api/auth/login"
+                Url = villaUrl + "/api/v1/auth/login"
             });
         }
 
@@ -33,7 +33,7 @@ namespace villa_app_web.Services
             {
                 ApiType = Details.ApiType.POST,
                 Data = registrationRequestDTO,
-                Url = villaUrl + "/api/auth/register"
+                Url = villaUrl + "/api/v1/auth/register"
             });
         }
     }
