@@ -1,6 +1,7 @@
 
 
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -8,6 +9,7 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 using villa_app_api;
 using villa_app_api.Data;
+using villa_app_api.Models.Entities;
 using villa_app_api.Repository;
 using villa_app_api.Repository.IRepository;
 
@@ -142,6 +144,8 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 });
+
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
 
 var app = builder.Build();
 

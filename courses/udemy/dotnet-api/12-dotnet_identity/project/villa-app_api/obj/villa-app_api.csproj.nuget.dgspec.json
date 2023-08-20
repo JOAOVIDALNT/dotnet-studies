@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\11-caching_filter_and_pagination\\project\\villa-app_api\\villa-app_api.csproj": {}
+    "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\12-dotnet_identity\\project\\villa-app_api\\villa-app_api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\11-caching_filter_and_pagination\\project\\villa-app_api\\villa-app_api.csproj": {
+    "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\12-dotnet_identity\\project\\villa-app_api\\villa-app_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\11-caching_filter_and_pagination\\project\\villa-app_api\\villa-app_api.csproj",
+        "projectUniqueName": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\12-dotnet_identity\\project\\villa-app_api\\villa-app_api.csproj",
         "projectName": "villa-app_api",
-        "projectPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\11-caching_filter_and_pagination\\project\\villa-app_api\\villa-app_api.csproj",
+        "projectPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\12-dotnet_identity\\project\\villa-app_api\\villa-app_api.csproj",
         "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\11-caching_filter_and_pagination\\project\\villa-app_api\\obj\\",
+        "outputPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\12-dotnet_identity\\project\\villa-app_api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,6 +52,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.21, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
             },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",

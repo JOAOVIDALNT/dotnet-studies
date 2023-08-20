@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jUglfz0R2TuktFpRmNs0/MIWfM2x8EQmlqS9pGQOajAuu9jJ3O3rIV8A/NYc2SdFfhXHvZg/Tpu7beE9hT17+w==",
+  "dgSpecHash": "ugcxjXDad63vDq6rgV0SV9QIRVYwsfPjotMfeV2ApJfXqk38h76PQztZyNI+AukupEZYEKwTcVXbvUY8yYYNjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\11-caching_filter_and_pagination\\project\\villa-app_utility\\villa-app_utility.csproj",
+  "projectFilePath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\12-dotnet_identity\\project\\villa-app_utility\\villa-app_utility.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
