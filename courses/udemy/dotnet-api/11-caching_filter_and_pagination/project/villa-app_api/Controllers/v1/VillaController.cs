@@ -1,4 +1,5 @@
 using System.Net;
+using System.Text.Json;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
@@ -26,15 +27,30 @@ namespace villa_app_api.Controllers.v1
         }
 
         [HttpGet]
+        [ResponseCache(CacheProfileName = "Default30")] // INDICA QUE ARMAZENARA A INFORMAÇÃO EM CACHE POR 30S, OU SEJA, EM 1 MINUTO TEREMOS NO MÁXIMO 2 REQ.
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<ActionResult<APIResponse>> GetVillas()
+        public async Task<ActionResult<APIResponse>> GetVillas([FromQuery(Name = "filterOccupancy")] int? occupancy, [FromQuery] string? search, int pageSize = 0, int pageNumber = 1)
         {
 
             try
             {
-                IEnumerable<Villa> villaList = await _repository.GetAllAsync();
+                IEnumerable<Villa> villaList;
+                if (occupancy > 0)
+                {
+                    villaList = await _repository.GetAllAsync(x => x.Occupancy == occupancy, pageSize:pageSize, pageNumber:pageNumber);
+                }
+                else
+                {
+                    villaList = await _repository.GetAllAsync(pageSize:pageSize, pageNumber:pageNumber);
+                }
+                if (!string.IsNullOrEmpty(search))
+                {
+                    villaList = villaList.Where(x => x.Name.ToLower().Contains(search));
+                }
+                Pagination pagination = new() { PageNumber = pageNumber, PageSize = pageSize };
+                Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(pagination));
                 _response.Result = _mapper.Map<List<VillaDTO>>(villaList);
                 _response.StatusCode = HttpStatusCode.OK;
                 return Ok(_response);
@@ -48,6 +64,7 @@ namespace villa_app_api.Controllers.v1
         }
 
         [HttpGet("{id}", Name = "GetVilla")]
+        //[ResponseCache(Duration = 30, Location = ResponseCacheLocation.None, NoStore = true)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -60,12 +77,14 @@ namespace villa_app_api.Controllers.v1
 
                 if (id == 0)
                 {
+                    _response.IsSuccess = false;
                     _response.StatusCode = HttpStatusCode.BadRequest;
                     return BadRequest(_response);
                 }
                 var villa = await _repository.GetAsync(x => x.Id == id);
                 if (villa == null)
                 {
+                    _response.IsSuccess = false;
                     _response.StatusCode = HttpStatusCode.NotFound;
                     return NotFound(_response);
                 }
@@ -95,11 +114,13 @@ namespace villa_app_api.Controllers.v1
                 if (await _repository.GetAsync(x => x.Name.ToLower() == createDTO.Name.ToLower()) != null)
                 {
                     ModelState.AddModelError("ErrorMessages", "Villa already exists");
+                    _response.IsSuccess = false;
                     return BadRequest(ModelState);
                 }
 
                 if (createDTO == null)
                 {
+                    _response.IsSuccess = false;
                     return BadRequest(createDTO);
                 }
 
@@ -134,11 +155,13 @@ namespace villa_app_api.Controllers.v1
             {
                 if (id == 0)
                 {
+                    _response.IsSuccess = false;
                     return BadRequest();
                 }
                 var villa = await _repository.GetAsync(x => x.Id == id);
                 if (villa == null)
                 {
+                    _response.IsSuccess = false;
                     return NotFound();
                 }
 
@@ -169,6 +192,7 @@ namespace villa_app_api.Controllers.v1
             {
                 if (updateDTO == null || id != updateDTO.Id)
                 {
+                    _response.IsSuccess = false;
                     return BadRequest();
                 }
 
@@ -177,7 +201,6 @@ namespace villa_app_api.Controllers.v1
                 await _repository.UpdateAsync(model);
 
                 _response.StatusCode = HttpStatusCode.NoContent;
-                _response.IsSuccess = true;
                 return Ok(_response);
             }
             catch (Exception ex)

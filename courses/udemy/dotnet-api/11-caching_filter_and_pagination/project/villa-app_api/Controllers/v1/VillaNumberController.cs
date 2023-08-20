@@ -61,12 +61,14 @@ namespace villa_app_api.Controllers.v1
                 if (id == 0)
                 {
                     _response.StatusCode = HttpStatusCode.BadRequest;
+                    _response.IsSuccess = false;
                     return BadRequest(_response);
                 }
                 var villaNumber = await _repository.GetAsync(x => x.VillaNo == id);
                 if (villaNumber == null)
                 {
                     _response.StatusCode = HttpStatusCode.NotFound;
+                    _response.IsSuccess = false;
                     return NotFound(_response);
                 }
 
@@ -105,6 +107,7 @@ namespace villa_app_api.Controllers.v1
 
                 if (createDTO == null)
                 {
+                    _response.IsSuccess = false;
                     return BadRequest(createDTO);
                 }
 
@@ -138,18 +141,19 @@ namespace villa_app_api.Controllers.v1
             {
                 if (id == 0)
                 {
+                    _response.IsSuccess = false;
                     return BadRequest();
                 }
                 var villaNumber = await _repository.GetAsync(x => x.VillaNo == id);
                 if (villaNumber == null)
                 {
+                    _response.IsSuccess = false;
                     return NotFound();
                 }
 
                 await _repository.DeleteAsync(villaNumber);
 
                 _response.StatusCode = HttpStatusCode.NoContent;
-                _response.IsSuccess = true;
 
                 return Ok(_response);
             }
@@ -173,11 +177,13 @@ namespace villa_app_api.Controllers.v1
             {
                 if (updateDTO == null || id != updateDTO.VillaNo)
                 {
+                    _response.IsSuccess = false;
                     return BadRequest();
                 }
                 if (await _villaRepository.GetAsync(x => x.Id == updateDTO.VillaId) == null)
                 {
                     ModelState.AddModelError("ErrorMessages", "Villa ID is invalid");
+                    _response.IsSuccess = false;
                     return BadRequest(ModelState);
                 }
 
@@ -186,7 +192,6 @@ namespace villa_app_api.Controllers.v1
                 await _repository.UpdateAsync(villaNumber);
 
                 _response.StatusCode = HttpStatusCode.NoContent;
-                _response.IsSuccess = true;
                 return Ok(_response);
             }
             catch (Exception ex)

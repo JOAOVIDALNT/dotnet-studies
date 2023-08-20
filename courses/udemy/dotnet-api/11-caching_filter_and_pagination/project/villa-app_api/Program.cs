@@ -31,6 +31,8 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IVillaNumberRepository, VillaNumberRepository>();
 builder.Services.AddAutoMapper(typeof(MappingConfig));
 
+builder.Services.AddResponseCaching(); // HABILITA O USO DE CACHE
+
 var key = builder.Configuration.GetValue<string>("ApiSettings:Secret");
 builder.Services.AddAuthentication(x =>
 {
@@ -66,6 +68,11 @@ builder.Services.AddVersionedApiExplorer(options =>
 
 builder.Services.AddControllers(
     option => {
+        option.CacheProfiles.Add("Default30",
+            new CacheProfile()
+            {
+                Duration = 30
+            });
         // option.ReturnHttpNotAcceptable = true; // Aceita apenas Json, caso passemos accept xml no header ele retorna não permitido ao invés de retornar o Json
     }
 ).AddNewtonsoftJson().AddXmlDataContractSerializerFormatters(); // Define que se pedir xml retorna xml
