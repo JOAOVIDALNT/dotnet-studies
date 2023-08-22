@@ -58,3 +58,15 @@ C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\12-dotnet_iden
 C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\12-dotnet_identity\project\villa-app_utility\obj\Debug\net6.0\refint\villa-app_utility.dll
 C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\12-dotnet_identity\project\villa-app_utility\obj\Debug\net6.0\villa-app_utility.pdb
 C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\12-dotnet_identity\project\villa-app_utility\obj\Debug\net6.0\ref\villa-app_utility.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\13-deployment\project\villa-app_utility\bin\Debug\net6.0\villa-app_utility.deps.json
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\13-deployment\project\villa-app_utility\bin\Debug\net6.0\villa-app_utility.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\13-deployment\project\villa-app_utility\bin\Debug\net6.0\villa-app_utility.pdb
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\13-deployment\project\villa-app_utility\obj\Debug\net6.0\villa-app_utility.csproj.AssemblyReference.cache
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\13-deployment\project\villa-app_utility\obj\Debug\net6.0\villa-app_utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\13-deployment\project\villa-app_utility\obj\Debug\net6.0\villa-app_utility.AssemblyInfoInputs.cache
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\13-deployment\project\villa-app_utility\obj\Debug\net6.0\villa-app_utility.AssemblyInfo.cs
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\13-deployment\project\villa-app_utility\obj\Debug\net6.0\villa-app_utility.csproj.CoreCompileInputs.cache
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\13-deployment\project\villa-app_utility\obj\Debug\net6.0\villa-app_utility.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\13-deployment\project\villa-app_utility\obj\Debug\net6.0\refint\villa-app_utility.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\13-deployment\project\villa-app_utility\obj\Debug\net6.0\villa-app_utility.pdb
+C:\Users\joaov\dev\dotnet\dotnet-studies\courses\udemy\dotnet-api\13-deployment\project\villa-app_utility\obj\Debug\net6.0\ref\villa-app_utility.dll

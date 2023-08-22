@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATmlLEujSIEqmn6pu0Y1NYwAAAAACAAAAAAAQZgAAAAEAACAAAABzmj7v1WGBiLtuG/BXtInlHxmkfl8IYRb2lcmGzSstLgAAAAAOgAAAAAIAACAAAACuJhjpEwu8Vi1odR393rjuEclL0hrn0Dz9r2P61zPzIIAAAABqiw7wRf2MbUI7PmEKDipwVpXRe43hToJUMS5yzhtLF+rCMvODly6qfMoNeIPDR4gEhbuJQ0C+/xzohxUj2eVIMvJuURtiOiUaG8EGJeSDNbt+/Jt3QxeEEgjnpn2x1bYBPAHoEOxhEr1bICDOH7POwqfplZz2BjYZaE/GsTUM30AAAACwo05UX+OQjAy9+y782VAyG47/vCTmhmDzJthbz6vUXRhnGbaEISEWG4lqv1z2wvss0paDnsN6I4xAKgB83MY3</EncryptedPassword>
+    <History>True|2023-08-21T23:24:39.9067256Z;True|2023-08-21T20:22:58.8877633-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SQLServerConnection">
+      <Value>Server=tcp:villa-app.database.windows.net,1433%3bInitial Catalog=villa-api%3bPersist Security Info=False%3bUser ID=adminuser%3bPassword=31ziuloaoJ#%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

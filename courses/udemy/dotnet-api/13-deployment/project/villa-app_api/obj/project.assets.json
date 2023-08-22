@@ -2820,11 +2820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\12-dotnet_identity\\project\\villa-app_api\\villa-app_api.csproj",
+      "projectUniqueName": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\13-deployment\\project\\villa-app_api\\villa-app_api.csproj",
       "projectName": "villa-app_api",
-      "projectPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\12-dotnet_identity\\project\\villa-app_api\\villa-app_api.csproj",
+      "projectPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\13-deployment\\project\\villa-app_api\\villa-app_api.csproj",
       "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\12-dotnet_identity\\project\\villa-app_api\\obj\\",
+      "outputPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\13-deployment\\project\\villa-app_api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaov\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -150,15 +150,16 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFramework
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{ // -> REMOVIDO PARA A PUBLICAÇÃO
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "villa-api_v1");
         options.SwaggerEndpoint("/swagger/v2/swagger.json", "villa-api_v2");
+        options.RoutePrefix = String.Empty;
     });
-}
+//}
 
 app.UseHttpsRedirection();
 

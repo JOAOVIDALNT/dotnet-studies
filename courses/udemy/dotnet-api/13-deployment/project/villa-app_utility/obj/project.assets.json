@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\12-dotnet_identity\\project\\villa-app_utility\\villa-app_utility.csproj",
+      "projectUniqueName": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\13-deployment\\project\\villa-app_utility\\villa-app_utility.csproj",
       "projectName": "villa-app_utility",
-      "projectPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\12-dotnet_identity\\project\\villa-app_utility\\villa-app_utility.csproj",
+      "projectPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\13-deployment\\project\\villa-app_utility\\villa-app_utility.csproj",
       "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\12-dotnet_identity\\project\\villa-app_utility\\obj\\",
+      "outputPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\13-deployment\\project\\villa-app_utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaov\\AppData\\Roaming\\NuGet\\NuGet.Config",
