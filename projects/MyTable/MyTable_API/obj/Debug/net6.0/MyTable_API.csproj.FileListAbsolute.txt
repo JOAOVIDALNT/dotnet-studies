@@ -68,3 +68,4 @@ C:\Users\joaov\dev\dotnet\dotnet-studies\projects\MyTable\MyTable_API\obj\Debug\
 C:\Users\joaov\dev\dotnet\dotnet-studies\projects\MyTable\MyTable_API\obj\Debug\net6.0\MyTable_API.pdb
 C:\Users\joaov\dev\dotnet\dotnet-studies\projects\MyTable\MyTable_API\obj\Debug\net6.0\MyTable_API.genruntimeconfig.cache
 C:\Users\joaov\dev\dotnet\dotnet-studies\projects\MyTable\MyTable_API\obj\Debug\net6.0\ref\MyTable_API.dll
+C:\Users\joaov\dev\dotnet\dotnet-studies\projects\MyTable\MyTable_API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

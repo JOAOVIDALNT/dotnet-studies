@@ -53,6 +53,7 @@ public class BookRepository : IBookRepository
 
     public async Task UpdateAsync(Book entity)
     {
+        entity.UpdatedAt = DateTime.Now;
         dbSet.Update(entity);
         await SaveAsync();
     }

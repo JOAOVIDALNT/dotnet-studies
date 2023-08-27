@@ -1,10 +1,12 @@
 ﻿using MyTable_API.Models;
+using MyTable_API.Models.Dtos;
 
 namespace MyTable_API.Repository
 {
     public interface IUserRepository
     {
-        Task<User> Register(User user);
-        Task<User> Login(User user);
+        bool IsUniqueUser(string username);
+        Task<User> Register(RegistrationRequestDTO registrationRequest);
+        Task<LoginResponseDTO> Login(LoginRequestDTO loginRequest);
     }
 }

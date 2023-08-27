@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj": {}
+    "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj": {
+    "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj",
+        "projectUniqueName": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj",
         "projectName": "MyTable_API",
-        "projectPath": "c:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj",
+        "projectPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\MyTable_API.csproj",
         "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\obj\\",
+        "outputPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\projects\\MyTable\\MyTable_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,6 +51,10 @@
             "Microsoft.AspNetCore.Authentication": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -87,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

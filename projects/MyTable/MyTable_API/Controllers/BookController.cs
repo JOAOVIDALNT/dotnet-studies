@@ -1,5 +1,6 @@
 ﻿using System.Net;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyTable_API.Models;
 using MyTable_API.Models.Dtos;
@@ -85,6 +86,7 @@ namespace MyTable_API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -120,6 +122,7 @@ namespace MyTable_API.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<APIResponse>> UpdateBook(int id, [FromBody] BookCreateDTO createDTO)
@@ -140,7 +143,7 @@ namespace MyTable_API.Controllers
                 entity.Author = createDTO.Author;
                 entity.Genre = createDTO.Genre;
                 entity.Pages = createDTO.Pages;
-                entity.UpdatedAt = DateTime.Now;
+                
 
                 await _repository.UpdateAsync(entity);
 

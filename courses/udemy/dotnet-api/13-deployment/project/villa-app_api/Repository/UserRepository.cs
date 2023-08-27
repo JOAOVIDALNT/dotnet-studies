@@ -78,13 +78,15 @@ namespace villa_app_api.Repository
 
         public async Task<UserDTO> Register(RegistrationRequestDTO registrationRequestDTO)
         {
-            ApplicationUser user = new()
-            {
-                UserName = registrationRequestDTO.UserName,
-                Email = registrationRequestDTO.UserName,
-                NormalizedEmail = registrationRequestDTO.UserName.ToUpper(),
-                Name = registrationRequestDTO.Name
-            }; // TODO: Implementar o auto mapper
+            //ApplicationUser user = new()
+            //{
+            //    UserName = registrationRequestDTO.UserName,
+            //    Email = registrationRequestDTO.UserName,
+            //    NormalizedEmail = registrationRequestDTO.UserName.ToUpper(),
+            //    Name = registrationRequestDTO.Name
+            //}; // TODO: Implementar o auto mapper
+
+            ApplicationUser user = _mapper.Map<ApplicationUser>(registrationRequestDTO);
 
             try
             {
