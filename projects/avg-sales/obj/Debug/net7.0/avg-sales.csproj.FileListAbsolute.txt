@@ -1,6 +1,0 @@
-C:\Users\NYBC\dev\dotnet\dotnet-studies\projects\avg-sales\obj\Debug\net7.0\avg-sales.csproj.AssemblyReference.cache
-C:\Users\NYBC\dev\dotnet\dotnet-studies\projects\avg-sales\obj\Debug\net7.0\avg-sales.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\NYBC\dev\dotnet\dotnet-studies\projects\avg-sales\obj\Debug\net7.0\avg-sales.AssemblyInfoInputs.cache
-C:\Users\NYBC\dev\dotnet\dotnet-studies\projects\avg-sales\obj\Debug\net7.0\avg-sales.AssemblyInfo.cs
-C:\Users\NYBC\dev\dotnet\dotnet-studies\projects\avg-sales\obj\Debug\net7.0\avg-sales.csproj.CoreCompileInputs.cache
-C:\Users\NYBC\dev\dotnet\dotnet-studies\projects\avg-sales\obj\Debug\net7.0\avg-sales.MvcApplicationPartsAssemblyInfo.cache
