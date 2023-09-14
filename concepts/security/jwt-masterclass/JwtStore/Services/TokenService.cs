@@ -1,6 +1,7 @@
 ﻿using JwtStore.Models;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 
 namespace JwtStore.Services
@@ -17,6 +18,7 @@ namespace JwtStore.Services
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {
+                Subject = GenerateClaims(user),
                 SigningCredentials = credentials,
                 Expires = DateTime.UtcNow.AddHours(3)
             };
@@ -25,6 +27,15 @@ namespace JwtStore.Services
 
             return handler.WriteToken(token);
 
+        }
+
+        private static ClaimsIdentity GenerateClaims(User user)
+        {
+            var ci = new ClaimsIdentity();
+
+            ci.AddClaim(new Claim("Fruta", "Banana"));
+
+            return ci;
         }
     }
 }
