@@ -26,7 +26,7 @@ Ex: "Equipe vocês conseguem, nessa sprint, entregar 70 pontos?"
 - Em caso de muito conforto, podemos adequar mais tarefas.
 - Em caso de sucesso anterior nas tarefas, é possível puxar do backlog as próximas tarefas.
 
-### Escopo backlog
+### Escopo Backlog
 ![[Pasted image 20240429080307.png]]
 
 
