@@ -73,7 +73,7 @@ namespace MyTable_API.Controllers
                 }
 
                 _response.Result = _mapper.Map<BookDTO>(entity);
-                _response.StatusCode = HttpStatusCode.OK;
+                _response.StatusCode = HttpStatusCode.OK;  
 
                 return Ok(_response);
             }
