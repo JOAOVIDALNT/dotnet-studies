@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EsnV7b/o311xgXzdzx6vLVLuyA+ExQxVOKhHzfllf7sf3hsULWW2uFoRIgLoRZ7+hKjHZCzgZg78xMM+MT6QNA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\concepts\\AI\\ConsumingOpenAI\\ConsumingOpenAI\\ConsumingOpenAI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joaov\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
