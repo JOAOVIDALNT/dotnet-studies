@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\concepts\\AI\\ConsumingOpenAI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FA4FB3E0-ACCC-4F56-A0D3-F5B342A8241D}|ConsumingOpenAI\\ConsumingOpenAI.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\concepts\\ai\\consumingopenai\\consumingopenai\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{FA4FB3E0-ACCC-4F56-A0D3-F5B342A8241D}|ConsumingOpenAI\\ConsumingOpenAI.csproj|solutionrelative:consumingopenai\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA4FB3E0-ACCC-4F56-A0D3-F5B342A8241D}|ConsumingOpenAI\\ConsumingOpenAI.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\concepts\\ai\\consumingopenai\\consumingopenai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA4FB3E0-ACCC-4F56-A0D3-F5B342A8241D}|ConsumingOpenAI\\ConsumingOpenAI.csproj|solutionrelative:consumingopenai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA4FB3E0-ACCC-4F56-A0D3-F5B342A8241D}|ConsumingOpenAI\\ConsumingOpenAI.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\concepts\\ai\\consumingopenai\\consumingopenai\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FA4FB3E0-ACCC-4F56-A0D3-F5B342A8241D}|ConsumingOpenAI\\ConsumingOpenAI.csproj|solutionrelative:consumingopenai\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,19 +27,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\concepts\\AI\\ConsumingOpenAI\\ConsumingOpenAI\\Program.cs",
-              "RelativeDocumentMoniker": "ConsumingOpenAI\\Program.cs",
-              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\concepts\\AI\\ConsumingOpenAI\\ConsumingOpenAI\\Program.cs",
-              "RelativeToolTip": "ConsumingOpenAI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T00:27:22.743Z",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\concepts\\AI\\ConsumingOpenAI\\ConsumingOpenAI\\.gitignore",
+              "RelativeDocumentMoniker": "ConsumingOpenAI\\.gitignore",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\concepts\\AI\\ConsumingOpenAI\\ConsumingOpenAI\\.gitignore",
+              "RelativeToolTip": "ConsumingOpenAI\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-08T10:36:55.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "settings.json",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\concepts\\AI\\ConsumingOpenAI\\ConsumingOpenAI\\settings.json",
+              "RelativeDocumentMoniker": "ConsumingOpenAI\\settings.json",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\concepts\\AI\\ConsumingOpenAI\\ConsumingOpenAI\\settings.json",
+              "RelativeToolTip": "ConsumingOpenAI\\settings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-08T10:35:33.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\concepts\\AI\\ConsumingOpenAI\\ConsumingOpenAI\\Program.cs",
+              "RelativeDocumentMoniker": "ConsumingOpenAI\\Program.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\concepts\\AI\\ConsumingOpenAI\\ConsumingOpenAI\\Program.cs",
+              "RelativeToolTip": "ConsumingOpenAI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T00:27:22.743Z",
+              "EditorCaption": ""
             }
           ]
         }
