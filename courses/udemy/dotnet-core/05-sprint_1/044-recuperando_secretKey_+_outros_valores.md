@@ -4,8 +4,8 @@ Recuperaremos o valor de secretKey para o nosso password encrypter e passaremos 
 {
   "ConnectionStrings": {
     "DataBaseType": "0",
-    "HomologConn": "Server=localhost\\sqlexpress;Initial Catalog=MyCookBook;Integrated Security=True;TrustServerCertificate=True",
-    "ProdConn": "Server=localhost\\sqlexpress;Initial Catalog=MyCookBook;Integrated Security=True;TrustServerCertificate=True"
+    "Conn1": "Server=localhost\\sqlexpress;Initial Catalog=MyCookBook;Integrated Security=True;TrustServerCertificate=True",
+    "Conn2": "Server=localhost\\sqlexpress;Initial Catalog=MyCookBook;Integrated Security=True;TrustServerCertificate=True"
   },
   "Settings": {
     "Password": {

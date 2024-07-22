@@ -4,11 +4,9 @@ Em appsettings.json -> appsettings.Development.json, adicionaremos as informaç�
 {
   "ConnectionStrings": {
     "DataBaseType": "0",
-    "HomologConn": "Server=localhost\\sqlexpress;Initial Catalog=MyCookBook;Integrated Security=True;TrustServerCertificate=True",
-    "ProdConn": "Server=localhost\\sqlexpress;Initial Catalog=MyCookBook;Integrated Security=True;TrustServerCertificate=True"
-  }
+    "Conn1": "Server=localhost\\sqlexpress;Initial Catalog=MyCookBook;Integrated Security=True;TrustServerCertificate=True",
+    "Conn2": "Server=localhost\\sqlexpress;Initial Catalog=MyCookBook;Integrated Security=True;TrustServerCertificate=True"
 }
-
 ```
 
 No 'AddInfraestructure' do nosso DI Extension, adicionaremos o parâmetro de IConfiguration
@@ -31,9 +29,9 @@ var dbType = config.GetConnectionString("DatabaseType");
 
 var dbTypeEnum = (DatabaseType)Enum.Parse(typeof(DatabaseType), dbType);
 
-if (dbTypeEnum == DatabaseType.Homolog)
-    AddDbContext(services, config.GetConnectionString("HomologConn"));
+if (dbTypeEnum == DatabaseType.Conn1)
+    AddDbContext(services, config.GetConnectionString("Conn1"));
 else
-    AddDbContext(services, config.GetConnectionString("ProdConn"));
+    AddDbContext(services, config.GetConnectionString("Conn2"));
 ```
 Observe que também criamos um enum em Domain.Enums -> DatabaseType.cs para associar os tipos
