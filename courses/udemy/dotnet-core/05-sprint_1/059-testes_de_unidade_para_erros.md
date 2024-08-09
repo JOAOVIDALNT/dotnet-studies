@@ -54,3 +54,22 @@ public RegisterUserValidator()
 Observe que
 - Adicionamos a clausula When, que garante que só validaremos se o e-mail é um e-mail válido caso ele não seja vazio ou nulo.
 - Adicionamos também as mensagens personalizadas que não tinhamos anteriormente
+
+### EMAIL_INVALID
+```csharp
+[Fact]
+public void Error_Email_Invalid()
+{
+    // ARRANGE
+    var validator = new RegisterUserValidator();
+    var request = RequestRegisterUserJsonBuilder.Build();
+    request.Email = "email.com";
+
+    // ACT
+    var result = validator.Validate(request);
+
+    // ASSERT
+    result.IsValid.Should().BeFalse();
+    result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceMessagesException.EMAIL_INVALID));
+}
+```
