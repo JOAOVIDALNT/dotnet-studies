@@ -1,0 +1,404 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A890875-7F57-4AE3-B99A-4B67370B7857}|villa-app_web\\villa-app_web.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_web\\views\\villanumber\\createvillanumber.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A890875-7F57-4AE3-B99A-4B67370B7857}|villa-app_web\\villa-app_web.csproj|solutionrelative:villa-app_web\\views\\villanumber\\createvillanumber.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\controllers\\usercontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\controllers\\usercontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\models\\entities\\localuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\models\\entities\\localuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\models\\entities\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\models\\entities\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\models\\entities\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\models\\entities\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\repository\\villarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\repository\\villarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\repository\\irepository\\ivillanumberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\repository\\irepository\\ivillanumberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\repository\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\repository\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\models\\dtos\\villacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\models\\dtos\\villacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\controllers\\villanumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\controllers\\villanumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\models\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\models\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\models\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\models\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\models\\dtos\\registrationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\models\\dtos\\registrationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\models\\dtos\\villaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\models\\dtos\\villaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\repository\\villanumberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\repository\\villanumberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\repository\\irepository\\ivillarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\repository\\irepository\\ivillarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|c:\\users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\migrations\\20230818011159_addusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53CD5A9E-0595-4317-AC38-99D0B7486E13}|villa-app_api\\villa-app_api.csproj|solutionrelative:villa-app_api\\migrations\\20230818011159_addusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateVillaNumber.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_web\\Views\\VillaNumber\\CreateVillaNumber.cshtml",
+              "RelativeDocumentMoniker": "villa-app_web\\Views\\VillaNumber\\CreateVillaNumber.cshtml",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_web\\Views\\VillaNumber\\CreateVillaNumber.cshtml",
+              "RelativeToolTip": "villa-app_web\\Views\\VillaNumber\\CreateVillaNumber.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T15:34:09.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "villa-app_api\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwFAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T01:22:02.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\Repository.cs",
+              "RelativeToolTip": "villa-app_api\\Repository\\Repository.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAmwBQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T01:22:46.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VillaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\VillaRepository.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Repository\\VillaRepository.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\VillaRepository.cs",
+              "RelativeToolTip": "villa-app_api\\Repository\\VillaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T01:22:44.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Program.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Program.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Program.cs",
+              "RelativeToolTip": "villa-app_api\\Program.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T02:20:45.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocalUser.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Entities\\LocalUser.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Models\\Entities\\LocalUser.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Entities\\LocalUser.cs",
+              "RelativeToolTip": "villa-app_api\\Models\\Entities\\LocalUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T01:08:38.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "APIResponse.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Entities\\APIResponse.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Models\\Entities\\APIResponse.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Entities\\APIResponse.cs",
+              "RelativeToolTip": "villa-app_api\\Models\\Entities\\APIResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T02:24:01.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IVillaNumberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\IRepository\\IVillaNumberRepository.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Repository\\IRepository\\IVillaNumberRepository.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\IRepository\\IVillaNumberRepository.cs",
+              "RelativeToolTip": "villa-app_api\\Repository\\IRepository\\IVillaNumberRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T01:22:37.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\IRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Repository\\IRepository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\IRepository\\IUserRepository.cs",
+              "RelativeToolTip": "villa-app_api\\Repository\\IRepository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T01:20:31.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControler.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Controllers\\UserControler.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Controllers\\UserControler.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Controllers\\UserControler.cs",
+              "RelativeToolTip": "villa-app_api\\Controllers\\UserControler.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T01:59:22.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Villa.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Entities\\Villa.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Models\\Entities\\Villa.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Entities\\Villa.cs",
+              "RelativeToolTip": "villa-app_api\\Models\\Entities\\Villa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-27T01:40:12.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "villa-app_api\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T01:09:59.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VillaController.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Controllers\\VillaController.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Controllers\\VillaController.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Controllers\\VillaController.cs",
+              "RelativeToolTip": "villa-app_api\\Controllers\\VillaController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowGwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T02:00:14.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MappingConfig.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\MappingConfig.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\MappingConfig.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\MappingConfig.cs",
+              "RelativeToolTip": "villa-app_api\\MappingConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-27T01:34:23.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VillaCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Dtos\\VillaCreateDTO.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Models\\Dtos\\VillaCreateDTO.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Dtos\\VillaCreateDTO.cs",
+              "RelativeToolTip": "villa-app_api\\Models\\Dtos\\VillaCreateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-26T23:34:35.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VillaNumberController.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Controllers\\VillaNumberController.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Controllers\\VillaNumberController.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Controllers\\VillaNumberController.cs",
+              "RelativeToolTip": "villa-app_api\\Controllers\\VillaNumberController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T02:00:30.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\appsettings.json",
+              "RelativeDocumentMoniker": "villa-app_api\\appsettings.json",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\appsettings.json",
+              "RelativeToolTip": "villa-app_api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-08-18T01:34:50.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegistrationRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Dtos\\RegistrationRequestDTO.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Models\\Dtos\\RegistrationRequestDTO.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Dtos\\RegistrationRequestDTO.cs",
+              "RelativeToolTip": "villa-app_api\\Models\\Dtos\\RegistrationRequestDTO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T01:14:16.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Dtos\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Models\\Dtos\\LoginResponseDTO.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Dtos\\LoginResponseDTO.cs",
+              "RelativeToolTip": "villa-app_api\\Models\\Dtos\\LoginResponseDTO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T01:13:18.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Dtos\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Models\\Dtos\\LoginRequestDTO.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Dtos\\LoginRequestDTO.cs",
+              "RelativeToolTip": "villa-app_api\\Models\\Dtos\\LoginRequestDTO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T01:12:37.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VillaUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Dtos\\VillaUpdateDTO.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Models\\Dtos\\VillaUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Models\\Dtos\\VillaUpdateDTO.cs",
+              "RelativeToolTip": "villa-app_api\\Models\\Dtos\\VillaUpdateDTO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-26T23:34:28.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VillaNumberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\VillaNumberRepository.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Repository\\VillaNumberRepository.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\VillaNumberRepository.cs",
+              "RelativeToolTip": "villa-app_api\\Repository\\VillaNumberRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T01:22:41.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IVillaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\IRepository\\IVillaRepository.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Repository\\IRepository\\IVillaRepository.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Repository\\IRepository\\IVillaRepository.cs",
+              "RelativeToolTip": "villa-app_api\\Repository\\IRepository\\IVillaRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-18T01:22:39.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20230818011159_addUsers.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Migrations\\20230818011159_addUsers.cs",
+              "RelativeDocumentMoniker": "villa-app_api\\Migrations\\20230818011159_addUsers.cs",
+              "ToolTip": "C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\08-api_security\\project\\villa-app_api\\Migrations\\20230818011159_addUsers.cs",
+              "RelativeToolTip": "villa-app_api\\Migrations\\20230818011159_addUsers.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-19T00:49:45.371Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
