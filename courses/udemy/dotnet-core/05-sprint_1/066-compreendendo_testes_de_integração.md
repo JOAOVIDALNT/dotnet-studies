@@ -30,7 +30,7 @@ namespace WebApi.Test.User.Register
     public class RegisterUserTest : IClassFixture<WebApplicationFactory<Program>>
     {
         private readonly HttpClient _httpClient;
-        public RegisterUserTest(WebApplicationFactory<Program> factory) => factory.CreateClient();
+        public RegisterUserTest(WebApplicationFactory<Program> factory) => _httpClient = factory.CreateClient();
 
         [Fact]
         public async Task Success()
