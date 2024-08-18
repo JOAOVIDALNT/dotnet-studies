@@ -38,3 +38,5 @@ public async Task Error_Empty_Name(string culture)
     errors.Should().ContainSingle().And.Contain(error => error.GetString().Equals(expectedMessage));
 }
 ```
+Observe que:
+- Utilizamos o `EnumeratedArray` para atribuir a propriedade `errors` à uma lista, já que nos casos de erros na validação, a nossa aplicação chama o `HandleProjectException` e trata essa erro adicionando ele à uma lista.

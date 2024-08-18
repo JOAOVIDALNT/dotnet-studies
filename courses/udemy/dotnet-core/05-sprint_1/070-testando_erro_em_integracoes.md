@@ -47,6 +47,7 @@ namespace WebApi.Test.InlineData
 Observe que:
 - O segundo método que é o `Get` da classe, nós chamamos o método com a implementação do que queremos varrer.
 - Estamos retornando um enumerador com `Arrays` do tipo `object`, ou seja, podemos ter além de 1 único valor dentro de cada propriedade desse enumerador.
+- 
 
 
 ### Requisição
