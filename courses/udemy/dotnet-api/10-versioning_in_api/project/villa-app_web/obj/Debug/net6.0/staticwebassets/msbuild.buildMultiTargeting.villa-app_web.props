@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\villa-app_web.props" />
-</Project>

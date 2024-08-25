@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="villa-api" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\joaov\\dev\\dotnet\\dotnet-studies\\courses\\udemy\\dotnet-api\\13-deployment\\project\\villa-app_api\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\Out\\$" />
-  </parameter>
-</parameters>
