@@ -1,0 +1,38 @@
+﻿@page "/"
+@using blazor_crud.Domain
+@using blazor_crud.Web.Services
+@inject CategoryService service
+
+<PageTitle>Home</PageTitle>
+
+<ul>
+    @foreach (var cat in categoryList)
+    {
+        <li>@cat.Name</li>
+    }
+</ul>
+
+<hr />
+
+<button @onclick="GetAllAsync">GET</button>
+<button @onclick="PostAsync">POST</button>
+
+@code {
+    private List<Category> categoryList = [];
+
+    private async Task GetAllAsync()
+    {
+        categoryList = await service.GetAllAsync();
+    }
+
+    private async Task PostAsync()
+    {
+        var request = new Category
+            {
+                Id = 0,
+                Name = new Guid().ToString()
+            };
+        await service.PostAsync(request);
+    }
+
+}

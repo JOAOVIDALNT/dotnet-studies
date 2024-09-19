@@ -1,4 +1,4 @@
-
+	
 Para que a cada validação de cultura que o nosso teste roda, nós façamos a comparação com o idioma correto, aplicaremos a seguinte lógica no teste:
 ```csharp
 var expectedMessage = ResourceMessagesException.ResourceManager.GetString("NAME_EMPTY", new CultureInfo(culture));
